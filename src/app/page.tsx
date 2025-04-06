@@ -1,11 +1,11 @@
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
-import Image from "next/image";
+import Cover from "@/components/Cover";
 
 export default function Home() {
   return (
     <>
       <DefaultLayout>
-        <h1>Hello</h1>
+        <Cover />
       </DefaultLayout>
     </>
   );
