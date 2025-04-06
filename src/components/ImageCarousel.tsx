@@ -48,7 +48,7 @@ export default function ImageCarousel() {
   }, []);
   
   return (
-    <div className="w-full my-8 px-4 overflow-hidden">
+    <div className="w-full pt-4 pb-12 px-4 md:px-6 overflow-hidden bg-white rounded-b-4xl">
       <div 
         ref={scrollRef}
         className="flex gap-4 overflow-x-hidden"
