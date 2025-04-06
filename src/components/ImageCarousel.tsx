@@ -63,7 +63,7 @@ export default function ImageCarousel() {
               alt={image.alt}
               width={365}
               height={240}
-              className="rounded-lg object-cover"
+              className="rounded-lg object-cover max-h-60"
               priority
             />
           </div>

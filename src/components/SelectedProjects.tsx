@@ -67,7 +67,7 @@ export default function SelectedProjects() {
                     alt={project.title}
                     width={600}
                     height={400}
-                    className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full object-cover transition-transform duration-500 group-hover:scale-105 max-h-100"
                   />
                 </div>
                 <div className="mt-4">
