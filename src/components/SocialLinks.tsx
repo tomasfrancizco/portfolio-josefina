@@ -5,7 +5,7 @@ import AnimatedElement from "./AnimatedElement";
 
 export default function SocialLinks() {
   return (
-    <AnimatedElement className="flex space-x-4 mx-4" threshold={0.2} delay={100}>
+    <AnimatedElement className="flex space-x-4 px-4 md:px-6 bg-white py-6 md:py-8" threshold={0.2} delay={100}>
       {/* Behance */}
       <Link 
         href="https://behance.net" 

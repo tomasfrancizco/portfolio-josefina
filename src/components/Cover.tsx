@@ -5,7 +5,7 @@ import AnimatedElement from "./AnimatedElement";
 
 export default function Cover() {
   return (
-    <div className="w-full bg-white py-12 md:py-16">
+    <div className="w-full bg-white pt-12 md:pt-16">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-6">
         <div className="flex flex-col items-start">
           {/* Profile Image */}
