@@ -27,7 +27,7 @@ export default function Cover() {
           </h1>
 
           {/* Subtitle */}
-          <p className="max-w-2xl text-left text-lg leading-relaxed text-gray-700">
+          <p className="mb-6 max-w-2xl text-left text-lg leading-relaxed text-gray-700">
             Graphic Designer graduated from the University of Buenos Aires,
             specialized in Visual Design and UX/UI. Experienced in creating
             identity systems, branding, and content for both print and digital

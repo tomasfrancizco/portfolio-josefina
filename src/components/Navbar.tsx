@@ -55,24 +55,26 @@ const Navbar = (props: {
         </div>
 
         <div className="hidden sm:block">
-          <p>Josefina Freire Knight</p>
+          <Link href="/">
+            <p className="hover:text-gray-400">Josefina Freire Knight</p>
+          </Link>
         </div>
 
         <div>
           <ul className="flex items-center gap-8 2xsm:gap-4">
             <li>
               <Link href="/projects">
-                <p>Projects</p>
+                <p className="hover:text-gray-400">Projects</p>
               </Link>
             </li>
             <li>
               <Link href="/resume">
-                <p>Resume</p>
+                <p className="hover:text-gray-400">Resume</p>
               </Link>
             </li>
             <li>
               <Link href="/about-me">
-                <p>About me</p>
+                <p className="hover:text-gray-400">About me</p>
               </Link>
             </li>
           </ul>
