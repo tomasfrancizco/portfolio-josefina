@@ -1,11 +1,14 @@
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
-import Image from "next/image";
-
+import Cover from "@/components/Cover";
+import SocialLinks from "@/components/SocialLinks";
+import ImageCarousel from "@/components/ImageCarousel";
 export default function Home() {
   return (
     <>
       <DefaultLayout>
-        <h1>Hello</h1>
+        <Cover />
+        <SocialLinks />
+        <ImageCarousel />
       </DefaultLayout>
     </>
   );
