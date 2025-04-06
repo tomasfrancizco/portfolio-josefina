@@ -39,7 +39,7 @@ const projects = [
 export default function SelectedProjects() {
   return (
     <section className="w-full py-16">
-      <div className="mx-auto px-4 md:px-6">
+      <div className="px-4 md:px-12 lg:px-18">
         <AnimatedElement className="mb-4 text-start">
           <h2 className="text-3xl font-medium text-gray-900 md:text-4xl">
             Selected Projects
