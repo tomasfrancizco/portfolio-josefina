@@ -6,13 +6,13 @@ import AnimatedElement from "./AnimatedElement";
 export default function Cover() {
   return (
     <div className="w-full bg-white py-12 md:py-16">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-6 2xl:px-10">
+      <div className="mx-auto max-w-screen-2xl px-4 md:px-6">
         <div className="flex flex-col items-start">
           {/* Profile Image */}
           <div className="mb-6 h-20 w-20 overflow-hidden rounded-full md:h-24 md:w-24">
             <Image
               src="/profile-image.jpg" // You'll need to add this image to your public folder
-              alt="Josefina Freire Knight"
+              alt="MJFK"
               width={96}
               height={96}
               className="h-full w-full object-cover"
@@ -23,7 +23,7 @@ export default function Cover() {
           {/* Title with animation */}
           <AnimatedElement className="mb-4 max-w-5xl text-left">
             <h1 className="text-2xl leading-tight text-gray-900 md:text-3xl lg:text-4xl">
-              I'm Josefina Freire Knight, a Senior Visual Designer specializing in
+              I&apos;m MJFK, a Senior Visual Designer specializing in
               creating intuitive, user-centered interfaces with a focus on
               usability and accessibility, based in Barcelona, Spain.
             </h1>

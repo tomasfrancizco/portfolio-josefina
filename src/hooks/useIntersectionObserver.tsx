@@ -44,5 +44,5 @@ export default function useIntersectionObserver<T extends Element>(
     };
   }, [root, rootMargin, threshold, once]);
 
-  return [elementRef, isVisible];
+  return [elementRef as RefObject<T>, isVisible];
 } 

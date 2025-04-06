@@ -8,8 +8,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Josefina Freire Knight",
-  description: "Josefina Freire Knight Portfolio",
+  title: "MJFK",
+  description: "MJFK",
 };
 
 export default function RootLayout({
