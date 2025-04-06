@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import AnimatedElement from "./AnimatedElement";
 
 export default function Cover() {
   return (
@@ -19,22 +20,26 @@ export default function Cover() {
             />
           </div>
 
-          {/* Title */}
-          <h1 className="mb-4 max-w-5xl text-left text-2xl leading-tight text-gray-900 md:text-3xl lg:text-4xl">
-            I'm Josefina Freire Knight, a Senior Visual Designer specializing in
-            creating intuitive, user-centered interfaces with a focus on
-            usability and accessibility, based in Barcelona, Spain.
-          </h1>
+          {/* Title with animation */}
+          <AnimatedElement className="mb-4 max-w-5xl text-left">
+            <h1 className="text-2xl leading-tight text-gray-900 md:text-3xl lg:text-4xl">
+              I'm Josefina Freire Knight, a Senior Visual Designer specializing in
+              creating intuitive, user-centered interfaces with a focus on
+              usability and accessibility, based in Barcelona, Spain.
+            </h1>
+          </AnimatedElement>
 
-          {/* Subtitle */}
-          <p className="mb-6 max-w-2xl text-left text-lg leading-relaxed text-gray-700">
-            Graphic Designer graduated from the University of Buenos Aires,
-            specialized in Visual Design and UX/UI. Experienced in creating
-            identity systems, branding, and content for both print and digital
-            platforms. Proficient in prototyping, interaction design, and tools
-            such as Figma and Adobe Creative Suite. Knowledge of HTML5 and CSS
-            for implementing and optimizing digital experiences.
-          </p>
+          {/* Subtitle with animation - delayed slightly */}
+          <AnimatedElement className="mb-6 max-w-5xl text-left" delay={300}>
+            <p className="text-lg leading-relaxed text-gray-700">
+              Graphic Designer graduated from the University of Buenos Aires,
+              specialized in Visual Design and UX/UI. Experienced in creating
+              identity systems, branding, and content for both print and digital
+              platforms. Proficient in prototyping, interaction design, and tools
+              such as Figma and Adobe Creative Suite. Knowledge of HTML5 and CSS
+              for implementing and optimizing digital experiences.
+            </p>
+          </AnimatedElement>
         </div>
       </div>
     </div>
