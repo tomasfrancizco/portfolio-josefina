@@ -5,8 +5,8 @@ import AnimatedElement from "./AnimatedElement";
 
 export default function Cover() {
   return (
-    <div className="w-full bg-white pt-12 md:pt-16">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-6">
+    <div className="w-full bg-white pt-12 md:pt-16 px-4 md:px-12 lg:px-18">
+      <div>
         <div className="flex flex-col items-start">
           {/* Profile Image */}
           <div className="mb-6 h-20 w-20 overflow-hidden rounded-full md:h-24 md:w-24">
