@@ -1,6 +1,4 @@
 import Link from "next/link";
-import DarkModeSwitcher from "./DarkModeSwitcher";
-import Image from "next/image";
 
 const Navbar = (props: {
   sidebarOpen: string | boolean | undefined;
@@ -56,7 +54,7 @@ const Navbar = (props: {
 
         <div className="hidden sm:block">
           <Link href="/">
-            <p className="hover:text-gray-400">Josefina Freire Knight</p>
+            <p className="hover:text-gray-400">MJFK</p>
           </Link>
         </div>
 
