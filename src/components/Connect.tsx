@@ -12,22 +12,22 @@ export default function Connect() {
             Interested in connecting?
           </h2>
         </AnimatedElement>
-        
+
         <AnimatedElement className="mb-8" delay={200}>
           <p className="text-lg text-white max-w-2xl">
             Let&apos;s talk projects, collaborations or anything design!
           </p>
         </AnimatedElement>
-        
+
         <AnimatedElement delay={400}>
-          <Link 
-            href="/contact" 
+          <Link
+            href="mailto:josefreireknight@gmail.com"
             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#2a2a28] rounded-md hover:bg-white hover:text-[#2a2a28] transition-colors duration-300"
           >
-            Book a call
+            Email me
           </Link>
         </AnimatedElement>
       </div>
     </section>
   );
-} 
+}

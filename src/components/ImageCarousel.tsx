@@ -3,16 +3,12 @@ import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 
 const carouselImages = [
-  { id: 1, src: "/profile-image.jpg", alt: "Image 1" },
-  { id: 2, src: "/profile-image.jpg", alt: "Image 2" },
-  { id: 3, src: "/profile-image.jpg", alt: "Image 3" },
-  { id: 4, src: "/profile-image.jpg", alt: "Image 4" },
-  { id: 5, src: "/profile-image.jpg", alt: "Image 5" },
-  { id: 6, src: "/profile-image.jpg", alt: "Image 6" },
-  // Duplicate the first few images to create a seamless loop effect
-  { id: 7, src: "/profile-image.jpg", alt: "Image 1" },
-  { id: 8, src: "/profile-image.jpg", alt: "Image 2" },
-  { id: 9, src: "/profile-image.jpg", alt: "Image 3" },
+  { id: 1, src: "/thumbnails/RAQN-Thumbnail.jpg", alt: "raqn" },
+  { id: 2, src: "/thumbnails/Thumbnail---Bobo-Choses.jpg", alt: "bobo choses" },
+  { id: 3, src: "/thumbnails/header_thumbnail.jpg", alt: "tickit" },
+  { id: 4, src: "/thumbnails/Poft-Thumbnail.jpg", alt: "poft" },
+  { id: 5, src: "/thumbnails/Thumbnail.jpg", alt: "mcdonalds" },
+  { id: 6, src: "/thumbnails/TNT-Thumbnail.jpg", alt: "tnt" },
 ];
 
 export default function ImageCarousel() {
@@ -46,6 +42,8 @@ export default function ImageCarousel() {
       cancelAnimationFrame(animationId);
     };
   }, []);
+
+  const repeatImages = [...carouselImages, ...carouselImages, ...carouselImages, ...carouselImages];
   
   return (
     <div className="w-full pt-4 pb-12 md:px-12 lg:px-18 overflow-hidden bg-white rounded-b-4xl">
@@ -53,9 +51,9 @@ export default function ImageCarousel() {
         ref={scrollRef}
         className="flex gap-4 overflow-x-hidden"
       >
-        {carouselImages.map((image) => (
+        {repeatImages.map((image, index) => (
           <div 
-            key={image.id} 
+            key={index}
             className="flex-shrink-0"
           >
             <Image
@@ -63,7 +61,7 @@ export default function ImageCarousel() {
               alt={image.alt}
               width={365}
               height={240}
-              className="rounded-lg object-cover max-h-60"
+              className="rounded-lg object-cover max-h-60 min-h-60"
               priority
             />
           </div>

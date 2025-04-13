@@ -5,7 +5,7 @@ const Navbar = (props: {
   setSidebarOpen: (arg0: boolean) => void;
 }) => {
   return (
-    <header className="sticky top-0 z-999 flex w-full bg-white drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none outline outline-gray-300">
+    <header className="sticky top-0 z-999 flex w-full bg-white drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none outline outline-gray-100">
       <div className="flex flex-grow items-center justify-between m-3 px-4 py-4 shadow-2 md:px-6 2xl:px-11">
         <div className="flex items-center gap-2 sm:gap-4 lg:hidden">
           {/* <!-- Hamburger Toggle BTN --> */}
@@ -54,7 +54,7 @@ const Navbar = (props: {
 
         <div className="hidden sm:block">
           <Link href="/">
-            <p className="hover:text-gray-400">MJFK</p>
+            <p className=" text-gray-400 hover:text-gray-900">Josefina</p>
           </Link>
         </div>
 
@@ -62,17 +62,17 @@ const Navbar = (props: {
           <ul className="flex items-center gap-8 2xsm:gap-4">
             <li>
               <Link href="/projects">
-                <p className="hover:text-gray-400">Projects</p>
+                <p className="text-gray-400 hover:text-gray-900">Projects</p>
               </Link>
             </li>
             <li>
               <Link href="/resume">
-                <p className="hover:text-gray-400">Resume</p>
+                <p className="text-gray-400 hover:text-gray-900">Resume</p>
               </Link>
             </li>
             <li>
               <Link href="/about-me">
-                <p className="hover:text-gray-400">About me</p>
+                <p className="text-gray-400 hover:text-gray-900">About me</p>
               </Link>
             </li>
           </ul>

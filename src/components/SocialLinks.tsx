@@ -13,7 +13,7 @@ export default function SocialLinks() {
       >
         {/* Behance */}
         <Link
-          href="https://behance.net"
+          href="https://www.behance.net/JoseFreireKnight"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-gray-300 text-gray-700 transition-colors hover:bg-gray-900 hover:text-gray-200"
@@ -31,7 +31,7 @@ export default function SocialLinks() {
 
         {/* LinkedIn */}
         <Link
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/josefina-freire-knight/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-gray-300 text-gray-700 transition-colors hover:bg-gray-900 hover:text-gray-200"
@@ -47,27 +47,9 @@ export default function SocialLinks() {
           </svg>
         </Link>
 
-        {/* Twitter */}
-        <Link
-          href="https://twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-gray-300 text-gray-700 transition-colors hover:bg-gray-900 hover:text-gray-200"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-          >
-            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-          </svg>
-        </Link>
-
         {/* Dribbble */}
         <Link
-          href="https://dribbble.com"
+          href="https://dribbble.com/JosefinaFK"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-gray-300 text-gray-700 transition-colors hover:bg-gray-900 hover:text-gray-200"
@@ -80,6 +62,24 @@ export default function SocialLinks() {
             fill="currentColor"
           >
             <path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z" />
+          </svg>
+        </Link>
+
+        {/* Email */}
+        <Link
+          href="mailto:josefreireknight@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-gray-300 text-gray-700 transition-colors hover:bg-gray-900 hover:text-gray-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
           </svg>
         </Link>
       </AnimatedElement>
