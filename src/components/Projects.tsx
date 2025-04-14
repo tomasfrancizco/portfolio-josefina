@@ -8,32 +8,74 @@ import AnimatedElement from "./AnimatedElement";
 const projects = [
   {
     id: 1,
-    title: "Brand Identity System",
-    subtitle: "A comprehensive brand identity for a sustainable fashion company",
-    imageSrc: "/profile-image.jpg", // Replace with actual project images
-    link: "/projects/brand-identity"
+    title: "Henkel - RAQN",
+    subtitle: "UI Design, Design System, Branding, Art Direction",
+    imageSrc: "/thumbnails/RAQN-Thumbnail.jpg",
+    link: "/projects/henkel-raqn",
   },
   {
     id: 2,
-    title: "E-commerce Redesign",
-    subtitle: "UX/UI redesign for an established online marketplace",
-    imageSrc: "/profile-image.jpg",
-    link: "/projects/ecommerce-redesign"
+    title: "Bobo Choses",
+    subtitle: "UI Design, Art Direction, Creative Direction",
+    imageSrc: "/thumbnails/Thumbnail---Bobo-Choses.jpg",
+    link: "/projects/bobo-choses",
   },
   {
     id: 3,
-    title: "Mobile App Design",
-    subtitle: "Intuitive interface for a health and wellness application",
-    imageSrc: "/profile-image.jpg",
-    link: "/projects/mobile-app"
+    title: "Tickit App",
+    subtitle: "UI Design, Branding, Graphic Design",
+    imageSrc: "/thumbnails/header_thumbnail.jpg",
+    link: "/projects/tickit-app",
   },
   {
     id: 4,
-    title: "Web Platform",
-    subtitle: "Educational platform with focus on accessibility",
-    imageSrc: "/profile-image.jpg",
-    link: "/projects/web-platform"
-  }
+    title: "Protect Our Future Too",
+    subtitle: "Branding, UI Design, Brand Guidelines",
+    imageSrc: "/thumbnails/Poft-Thumbnail.jpg",
+    link: "/projects/protect-our-future-too",
+  },
+  {
+    id: 5,
+    title: "McDonald's",
+    subtitle: "Art Direction",
+    imageSrc: "/thumbnails/Thumbnail.jpg",
+    link: "/projects/mcdonalds",
+  },
+  {
+    id: 6,
+    title: "TNT",
+    subtitle: "Graphic Design, Art Direction",
+    imageSrc: "/thumbnails/TNT-Thumbnail.jpg",
+    link: "/projects/tnt",
+  },
+  {
+    id: 7,
+    title: "Royal Canin",
+    subtitle: "Storytelling, Art Direction, Brand Guidelines",
+    imageSrc: "/thumbnails/RC_Thumbnail.jpg",
+    link: "/projects/royal-canin",
+  },
+  {
+    id: 8,
+    title: "Tiny Cottons",
+    subtitle: "Art Direction",
+    imageSrc: "/thumbnails/Tiny-Thumbnail.jpg",
+    link: "/projects/tiny-cottons",
+  },
+  {
+    id: 9,
+    title: "We Are Family",
+    subtitle: "UI Design, Art Direction, Illustration, Graphic Design",
+    imageSrc: "/thumbnails/CADE-Thumbnail.jpg",
+    link: "/projects/we-are-family",
+  },
+  {
+    id: 10,
+    title: "TBS",
+    subtitle: "UI Design",
+    imageSrc: "/thumbnails/TBS-Thumbnail.jpg",
+    link: "/projects/tbs",
+  },
 ];
 
 export default function SelectedProjects() {
@@ -42,20 +84,21 @@ export default function SelectedProjects() {
       <div className="px-4 md:px-12 lg:px-18">
         <AnimatedElement className="mb-4 text-start">
           <h2 className="text-3xl font-medium text-gray-900 md:text-4xl">
-            Selected Projects
+            Projects
           </h2>
         </AnimatedElement>
-        
+
         <AnimatedElement className="mb-12 text-start" delay={200}>
           <p className="max-w-2xl text-lg text-gray-700">
-            Explore my selected projects, ...
+            Explore my selected projects, showcasing my dedication to innovative
+            and heartfelt design.
           </p>
         </AnimatedElement>
-        
+
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
-            <AnimatedElement 
-              key={project.id} 
+            <AnimatedElement
+              key={project.id}
               className="group"
               delay={300 + index * 100}
               distance={40}
@@ -85,4 +128,4 @@ export default function SelectedProjects() {
       </div>
     </section>
   );
-} 
+}

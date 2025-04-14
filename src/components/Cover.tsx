@@ -23,21 +23,20 @@ export default function Cover() {
           {/* Title with animation */}
           <AnimatedElement className="mb-4 max-w-5xl text-left">
             <h1 className="text-2xl leading-tight text-gray-900 md:text-3xl lg:text-4xl">
-              I&apos;m MJFK, a Senior Visual Designer specializing in
-              creating intuitive, user-centered interfaces with a focus on
-              usability and accessibility, based in Barcelona, Spain.
+              I&apos;m Josefina, a Senior Visual Designer based in Barcelona,
+              bridging the gap between Branding and Product Design
             </h1>
           </AnimatedElement>
 
           {/* Subtitle with animation - delayed slightly */}
           <AnimatedElement className="mb-6 max-w-5xl text-left" delay={300}>
             <p className="text-lg leading-relaxed text-gray-700">
-              Graphic Designer graduated from the University of Buenos Aires,
+              I&apos;m a Graphic Designer graduated from the University of Buenos Aires,
               specialized in Visual Design and UX/UI. Experienced in creating
               identity systems, branding, and content for both print and digital
-              platforms. Proficient in prototyping, interaction design, and tools
-              such as Figma and Adobe Creative Suite. Knowledge of HTML5 and CSS
-              for implementing and optimizing digital experiences.
+              platforms. Proficient in prototyping, interaction design, and
+              tools such as Figma and Adobe Creative Suite. Knowledge of HTML5
+              and CSS for implementing and optimizing digital experiences.
             </p>
           </AnimatedElement>
         </div>
