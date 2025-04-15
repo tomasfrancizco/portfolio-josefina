@@ -78,7 +78,7 @@ const projects = [
   },
 ];
 
-export default function SelectedProjects() {
+export default function Projects() {
   return (
     <section className="w-full py-16">
       <div className="px-4 md:px-12 lg:px-18">

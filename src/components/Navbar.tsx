@@ -1,11 +1,13 @@
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const Navbar = (props: {
   sidebarOpen: string | boolean | undefined;
   setSidebarOpen: (arg0: boolean) => void;
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [visible, setVisible] = useState(true);
+  const prevScrollPosRef = useRef(0);
 
   // Close mobile menu when screen size changes to desktop
   useEffect(() => {
@@ -19,8 +21,37 @@ const Navbar = (props: {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+
+      const isScrollingUp = prevScrollPosRef.current > currentScrollPos;
+      const isAtTop = currentScrollPos < 10;
+
+      console.log(isScrollingUp);
+      console.log("prev", prevScrollPosRef.current);
+      console.log("current", currentScrollPos);
+
+      // Update visibility based on scroll direction
+      setVisible(isScrollingUp || isAtTop);
+
+      // Update the scroll position
+      prevScrollPosRef.current = currentScrollPos;
+    };
+
+    // Set initial scroll position
+    prevScrollPosRef.current = window.scrollY;
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className="sticky top-0 z-999 flex w-full bg-white drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none outline outline-gray-100">
+    <header
+      className={`sticky top-0 z-999 flex w-full bg-white drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none outline outline-gray-100 ${
+        visible ? "opacity-100" : "opacity-0"
+      }`}
+    >
       <div className="flex flex-grow items-center justify-between m-3 px-4 py-4 shadow-2 md:px-6 2xl:px-11">
         <div className="flex items-center gap-2 sm:gap-4 lg:hidden">
           {/* <!-- Hamburger Toggle BTN --> */}

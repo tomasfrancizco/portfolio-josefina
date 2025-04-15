@@ -2,9 +2,9 @@ import DefaultLayout from "@/components/Layouts/DefaultLayout";
 import Cover from "@/components/Cover";
 import SocialLinks from "@/components/SocialLinks";
 import ImageCarousel from "@/components/ImageCarousel";
-import SelectedProjects from "@/components/Projects";
+import Projects from "@/components/Projects";
 import Connect from "@/components/Connect";
-
+import Feedback from "@/components/Feedback";
 export default function Home() {
   return (
     <>
@@ -12,7 +12,8 @@ export default function Home() {
         <Cover />
         <SocialLinks />
         <ImageCarousel />
-        <SelectedProjects />
+        <Projects />
+        <Feedback />
         <Connect />
       </DefaultLayout>
     </>
