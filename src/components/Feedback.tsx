@@ -6,57 +6,76 @@ import AnimatedElement from "@/components/AnimatedElement";
 const feedbackData = [
   {
     id: 1,
-    image: "/profile-image.jpg",
-    name: "Sarah Johnson",
-    position: "Marketing Director",
-    company: "TechCorp",
+    image: "/feedback/01_Clara-Oliveira.jpeg",
+    name: "Clara Oliveira",
+    position: "Content Strategist",
+    company: "Keenfolks",
     feedback:
-      "Working with Josefina was an absolute pleasure. Her attention to detail and creative approach produced results that exceeded our expectations. The project was delivered on time and the quality of work was outstanding.",
+      "Josefina is such a great professional! Not only does she know a lot about design and has loads of experience, but she also has a great attitude! She's always open to feedback and knows how to explain her point of view, which makes the creative process much richer! She is also great at collaborating with others and a joy to work with!",
   },
   {
     id: 2,
-    image: "/profile-image.jpg",
-    name: "Michael Chen",
-    position: "Product Manager",
-    company: "Innovate Inc.",
+    image: "/feedback/02_Bianca-Isaac.jpeg",
+    name: "Bianca Isaac",
+    position: "Content Manager",
+    company: "Keenfolks",
     feedback:
-      "Josefina brought fresh perspectives to our project. Her ability to understand our brand and translate it into compelling visuals was impressive. She was responsive, professional, and delivered excellent work.",
+      "I worked closely with Josefina for a year at a digital marketing agency in Barcelona, where she led the design team while I led content. She was not only one of our top designers but also a hands-on, creative partner—constantly supporting her team, aligning on strategy, and pushing fresh ideas across projects like social media assets, landing pages, and interactive tools. Her proactive approach, adaptability, and drive to keep learning made a big impact on our work.",
   },
   {
     id: 3,
-    image: "/profile-image.jpg",
-    name: "Emma Rodriguez",
-    position: "Creative Director",
-    company: "DesignHub",
+    image: "/feedback/03_Tess-Ramsey.jpeg",
+    name: "Tess Ramsey",
+    position: "Creative Operations",
+    company: "Typeform",
     feedback:
-      "We hired Josefina for a complete brand redesign, and she knocked it out of the park. Her process was thorough, collaborative, and resulted in a design system that perfectly captured our brand essence.",
+      "Working with Jose was always a dream. Her attention to detail, great communication skills, thoughtful design process, openness to feedback and willingness to mentor and give great feedback always stood out to me. She takes great ownership over her work and brings a sense of calm to the sometimes chaotic creative environment.",
   },
   {
     id: 4,
-    image: "/profile-image.jpg",
-    name: "David Kim",
-    position: "CEO",
-    company: "StartupX",
+    image: "/feedback/04_Romina-Nigolian.jpeg",
+    name: "Romina Nigolian",
+    position: "Sr. Client Operations Manager",
+    // company: "Pulselive - A Sony Sports Company",
+    company: "Pulselive",
     feedback:
-      "As a startup founder, I needed someone who could understand my vision and bring it to life visually. Josefina did exactly that and more. Her work has been crucial to our early success and brand recognition.",
+      "Trabajar con Josefina fue una experiencia enriquecedora tanto a nivel laboral como personal. Fuimos parte del mismo equipo durante dos años. Es una gran profesional; creativa, responsable y apasionada por su vocación. Sin dudas una excelente compañera de equipo, siempre predispuesta a compartir sus conocimientos y a incorporar nuevas habilidades. No tengo dudas que será una pieza fundamental en sus próximos proyectos.",
   },
   {
     id: 5,
-    image: "/profile-image.jpg",
-    name: "Sarah Johnson",
-    position: "Marketing Director",
-    company: "TechCorp",
+    image: "/feedback/05_Natalia-Torres-Blair.jpeg",
+    name: "Natalia Torres Blair",
+    position: "UX Product Lead",
+    company: "Santander Tecnología",
     feedback:
-      "Working with Josefina was an absolute pleasure. Her attention to detail and creative approach produced results that exceeded our expectations. The project was delivered on time and the quality of work was outstanding.",
+      "Tuve la gran oportunidad de trabajar con Josefina en Turner, en el equipo de Digital Media y formó parte de mi equipo de diseñadores digitales. Durante ese tiempo, demostró ser una profesional muy comprometida con los proyectos que le fueron asignados. Entendió siempre muy bien cuáles eran los principales objetivos de cada proyecto y se notó el esfuerzo por aprender del equipo y por aportar ideas innovadoras. En cuanto a su personalidad, Josefina tiene la capacidad de adaptarse rápidamente a los cambios y es una persona muy curiosa. Recomiendo a Josefina como diseñadora digital en cualquier empresa que quiera incorporar jóvenes profesionales creativos.",
   },
   {
     id: 6,
-    image: "/profile-image.jpg",
-    name: "Sarah Johnson",
-    position: "Marketing Director",
-    company: "TechCorp",
+    image: "/feedback/06_Romina-Kandrachoff.jpeg",
+    name: "Romina Kandrachoff",
+    position: "Sr. Software Developer",
+    company: "Mercado Libre",
     feedback:
-      "Working with Josefina was an absolute pleasure. Her attention to detail and creative approach produced results that exceeded our expectations. The project was delivered on time and the quality of work was outstanding.",
+      "Josefina es una persona creativa, profesional y responsable. Tiene buenas ideas y calidad en el diseño, es dedicada en lo que hace buscando una mejora constante. Se mantiene actualizada y siempre esta disponible para enfrentar nuevos desafíos. Es una persona colaboradora, dispuesta a ayudar y transmitir su conocimiento a todo momento. Un gusto trabajar con Josefina.",
+  },
+  {
+    id: 7,
+    image: "/feedback/07_Lorena-Lafleur.jpeg",
+    name: "Lorena Lafleur",
+    position: "Creative Art Manager",
+    company: "Sony Pictures Entertainment",
+    feedback:
+      "Josefina es una excelente profesional. Es una persona muy creativa, con buena predisposición y sentido de la estética. Es flexible, entiende de tiempos y pautas de entrega de los proyectos, sabe trabajar bajo presión o en múltiples tareas y es muy responsable. Sin dudas fue un placer trabajar con ella!!!",
+  },
+  {
+    id: 8,
+    image: "/feedback/08_Agustin-Castellani.jpeg",
+    name: "Agustín Castellani",
+    position: "Creative Director | Co-founder",
+    company: "Inhaus Digital",
+    feedback:
+      "Trabajé con Jose en el equipo digital de Turner los últimos dos años. Es una excelente diseñadora, con miles de ideas, y siempre abierta a compartirlas con el equipo. Fue un placer para mí haber compartido tantos proyectos y desafíos. Excelente profesional y hermosa persona.",
   },
 ];
 
@@ -121,8 +140,8 @@ const Feedback = () => {
     >
       <div className="flex flex-col h-full bg-gray-50 rounded-xl p-6 shadow-sm">
         {/* Profile image */}
-        <div className="flex justify-center mb-6">
-          <div className="relative w-24 h-24 md:w-32 md:h-32 overflow-hidden rounded-full border-2 border-gray-200">
+        <div className="flex justify-start mb-6">
+          <div className="relative w-16 h-16 md:w-24 md:h-24 overflow-hidden rounded-full border-2 border-gray-200">
             <Image
               src={feedback.image}
               alt={feedback.name}
@@ -134,11 +153,11 @@ const Feedback = () => {
 
         {/* Feedback content */}
         <div className="flex-1 flex flex-col">
-          <h3 className="text-xl font-semibold text-gray-900 text-center">
+          <h3 className="text-xl font-semibold text-gray-900 text-start">
             {feedback.name}
           </h3>
-          <p className="text-gray-600 mb-4 text-center">
-            {feedback.position} at {feedback.company}
+          <p className="text-gray-600 mb-4 text-start">
+            {feedback.position} @ {feedback.company}
           </p>
           <blockquote className="text-gray-800 italic flex-1">
             &ldquo;{feedback.feedback}&rdquo;
