@@ -9,6 +9,8 @@ const Navbar = (props: {
   const [visible, setVisible] = useState(true);
   const prevScrollPosRef = useRef(0);
 
+  const resumeLink = "https://www.notion.so/josefreireknight/Josefina-Freire-Knight-1de675fd9b07805b9c2fd553388104a5?pvs=4";
+
   // Close mobile menu when screen size changes to desktop
   useEffect(() => {
     const handleResize = () => {
@@ -122,7 +124,7 @@ const Navbar = (props: {
               </Link>
             </li>
             <li>
-              <Link href="/resume">
+              <Link href={resumeLink} target="_blank">
                 <p className="text-gray-400 hover:text-gray-900">Resume</p>
               </Link>
             </li>
@@ -134,14 +136,14 @@ const Navbar = (props: {
           <div className="absolute top-full left-0 w-full sm:w-1/2  bg-white shadow-md mt-1 py-2 lg:hidden z-50">
             <ul className="flex flex-col space-y-3 px-4">
               <li>
-                <Link href="/projects">
+                <Link href="/#projects">
                   <p className="text-gray-400 hover:text-gray-900 py-2">
                     Projects
                   </p>
                 </Link>
               </li>
               <li>
-                <Link href="/resume">
+                <Link href={resumeLink} target="_blank">
                   <p className="text-gray-400 hover:text-gray-900 py-2">
                     Resume
                   </p>
