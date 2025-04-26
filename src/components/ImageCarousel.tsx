@@ -136,7 +136,7 @@ export default function ImageCarousel() {
   const repeatImages = [...carouselImages, ...carouselImages, ...carouselImages, ...carouselImages];
   
   return (
-    <div className="w-full pt-4 pb-12 md:px-12 lg:px-18 overflow-hidden bg-white rounded-b-4xl">
+    <div className="w-full mb-16 pt-4 pb-12 md:px-12 lg:px-18 overflow-hidden bg-white rounded-b-4xl">
       <div 
         ref={scrollRef}
         className="flex gap-4 overflow-x-hidden"
