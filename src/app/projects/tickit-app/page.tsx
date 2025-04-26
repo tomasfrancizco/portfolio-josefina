@@ -43,20 +43,20 @@ const TickitAppPage = () => {
                 Tickit App
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                UX Design, Mobile App, UI Design, User Testing
+                UI Design, Mobile App, Branding, Graphic Design
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Client</p>
-                  <p className="text-xl font-medium">Tickit Health</p>
+                  <p className="text-xl font-medium">Merck</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2022</p>
+                  <p className="text-xl font-medium">2019 - 2020</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">UX/UI Designer</p>
+                  <p className="text-xl font-medium">Branding & UI Designer</p>
                 </div>
               </div>
             </AnimatedElement>
@@ -126,11 +126,11 @@ const TickitAppPage = () => {
                 </p>
                 <p className="mt-4">
                   This design element is a subtle but effective way to
-                  communicate the app&apos;s purpose and functionality, making it
-                  easy for users to understand the app&apos;s purpose and message at
-                  a glance. The missing dots in the letter &quot;i&quot; also
-                  create a visual intrigue, drawing attention to the app&apos;s name
-                  and making it more memorable.
+                  communicate the app&apos;s purpose and functionality, making
+                  it easy for users to understand the app&apos;s purpose and
+                  message at a glance. The missing dots in the letter
+                  &quot;i&quot; also create a visual intrigue, drawing attention
+                  to the app&apos;s name and making it more memorable.
                 </p>
               </div>
             </AnimatedElement>

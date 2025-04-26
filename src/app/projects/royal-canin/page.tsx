@@ -42,7 +42,7 @@ const RoyalCaninPage = () => {
                 Royal Canin
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                Product Design, UX/UI Design, Mobile App
+                Branding, Storytelling, Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
@@ -51,7 +51,7 @@ const RoyalCaninPage = () => {
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2022</p>
+                  <p className="text-xl font-medium">2024</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
@@ -85,8 +85,9 @@ const RoyalCaninPage = () => {
                 <p className="mb-4">
                   Love at First Sight is an emotive campaign for Royal Canin,
                   focusing on the transformative first moments between net pet
-                  parents and their pets, emphasizing the brand&apos;s commitment
-                  to nurturing these bonds from the beginning of life.
+                  parents and their pets, emphasizing the brand&apos;s
+                  commitment to nurturing these bonds from the beginning of
+                  life.
                 </p>
               </div>
             </AnimatedElement>

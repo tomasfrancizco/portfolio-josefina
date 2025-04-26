@@ -47,20 +47,20 @@ const ProtectOurFutureTooPage = () => {
                 Protect Our Future Too
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                Brand Identity, Social Media, Marketing Campaign
+                Branding, UI Design, Brand Guidelines
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Client</p>
-                  <p className="text-xl font-medium">POFT Org.</p>
+                  <p className="text-xl font-medium">Merck</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2023</p>
+                  <p className="text-xl font-medium">2019 - 2021</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">Brand Designer</p>
+                  <p className="text-xl font-medium">Branding & UI Designer</p>
                 </div>
               </div>
             </AnimatedElement>
