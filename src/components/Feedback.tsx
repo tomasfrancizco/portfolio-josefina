@@ -48,7 +48,7 @@ const feedbackData = [
     position: "UX Product Lead",
     company: "Santander Tecnología",
     feedback:
-      "Tuve la gran oportunidad de trabajar con Josefina en Turner, en el equipo de Digital Media y formó parte de mi equipo de diseñadores digitales. Durante ese tiempo, demostró ser una profesional muy comprometida con los proyectos que le fueron asignados. Entendió siempre muy bien cuáles eran los principales objetivos de cada proyecto y se notó el esfuerzo por aprender del equipo y por aportar ideas innovadoras. En cuanto a su personalidad, Josefina tiene la capacidad de adaptarse rápidamente a los cambios y es una persona muy curiosa. Recomiendo a Josefina como diseñadora digital en cualquier empresa que quiera incorporar jóvenes profesionales creativos.",
+      "Trabajé con Josefina en Turner, donde formó parte de mi equipo de diseñadores digitales. Siempre mostró compromiso, entendió claramente los objetivos de cada proyecto y aportó ideas innovadoras. Es una persona curiosa y con gran capacidad de adaptación. Recomiendo a Josefina como diseñadora digital para cualquier empresa que busque jóvenes profesionales creativos.",
   },
   {
     id: 6,
@@ -170,12 +170,14 @@ const Feedback = () => {
   return (
     <section className="w-full py-16">
       <div className="px-4 md:px-12 lg:px-18">
-        <div className="w-full py-16 bg-gray-100">
-          <AnimatedElement className="mb-8 text-start px-6">
+        <div className="w-full bg-gray-100">
+          <AnimatedElement className="mb-4 text-start">
             <h2 className="text-3xl font-medium text-gray-900 md:text-4xl">
-              Colleagues&quot; Feedback
+              Colleagues&apos; Feedback
             </h2>
-            <p className="text-gray-600 mb-4 text-start">
+          </AnimatedElement>
+          <AnimatedElement className="mb-12 text-start" delay={200}>
+            <p className="max-w-2xl text-lg text-gray-700">
               Read insights and praises from mentors and peers who have guided
               and witnessed my professional growth.
             </p>
@@ -183,13 +185,56 @@ const Feedback = () => {
 
           <AnimatedElement className="mb-8 text-start px-6">
             <div className="relative">
+              {/* Previous button */}
+              <button
+                onClick={handlePrevious}
+                className="absolute -left-7 top-1/2 transform -translate-y-1/2 cursor-pointer bg-white rounded-full p-2 shadow-md hover:bg-gray-100 focus:outline-none z-10 mx-2"
+                aria-label="Previous testimonial"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-gray-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 19l-7-7 7-7"
+                  />
+                </svg>
+              </button>
+
+              {/* Next button */}
+              <button
+                onClick={handleNext}
+                className="absolute -right-7 top-1/2 transform -translate-y-1/2 cursor-pointer bg-white rounded-full p-2 shadow-md hover:bg-gray-100 focus:outline-none z-10 mx-2"
+                aria-label="Next testimonial"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-gray-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
               {/* Carousel container */}
-              <div ref={carouselRef} className="overflow-hidden">
+              <div ref={carouselRef} className="overflow-hidden relative">
                 <div
                   className="flex transition-transform duration-500 ease-in-out"
                   style={{
                     transform: `translateX(-${
-                      currentIndex * (cardWidth + 8)
+                      currentIndex * cardWidth
                     }px)`,
                   }}
                 >
@@ -201,50 +246,9 @@ const Feedback = () => {
             </div>
           </AnimatedElement>
 
-          {/* Dots indicator */}
+          {/* Removing the navigation buttons from here */}
           <div className="flex justify-center mt-8">
-            {/* Navigation arrows */}
-            <button
-              onClick={handlePrevious}
-              className="cursor-pointer bg-white rounded-full p-2 shadow-md hover:bg-gray-100 focus:outline-none z-10 mx-2"
-              aria-label="Previous testimonial"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-gray-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
-            </button>
-
-            <button
-              onClick={handleNext}
-              className="cursor-pointer bg-white rounded-full p-2 shadow-md hover:bg-gray-100 focus:outline-none z-10 mx-2"
-              aria-label="Next testimonial"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-gray-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+            {/* Navigation dots could go here if needed */}
           </div>
         </div>
       </div>

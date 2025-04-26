@@ -8,8 +8,11 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "M. Josefina Freire Knight",
-  description: "Graphic Designer from Barcelona, Josefina Freire Knight",
+  title: "Josefina Freire Knight",
+  description: "Josefina Freire Knight -Graphic Designer from Barcelona",
+  icons: {
+    icon: [{ url: "/profile-image.jpg", type: "image/jpg", sizes: "32x32" }],
+  },
 };
 
 export default function RootLayout({
@@ -19,9 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${manrope.variable} antialiased bg-gray-100`}
-      >
+      <body className={`${manrope.variable} antialiased bg-gray-100`}>
         {children}
       </body>
     </html>
