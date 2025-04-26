@@ -199,7 +199,7 @@ const HenkelRAQNPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Engagement Assets for RAQN
+                Engagement Assets
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p>
