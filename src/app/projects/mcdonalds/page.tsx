@@ -43,7 +43,7 @@ const McDonaldsPage = () => {
                 McDonald&apos;s
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                Mobile App, UX/UI Design, Design System
+                Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
@@ -52,11 +52,11 @@ const McDonaldsPage = () => {
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2021</p>
+                  <p className="text-xl font-medium">2024</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">UI/UX Designer</p>
+                  <p className="text-xl font-medium">Art Director</p>
                 </div>
               </div>
             </AnimatedElement>
@@ -82,7 +82,7 @@ const McDonaldsPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 You Do You: Celebrating McDonald’s Rituals 🥤🍟
               </h2>
             </AnimatedElement>
@@ -104,10 +104,11 @@ const McDonaldsPage = () => {
                 </h3>
                 <p className="mb-4">
                   McDonald&apos;s isn&apos;t just food; it&apos;s a shared
-                  experience, deeply personal yet universally loved. Whether it&apos;s dipping fries in
-                  a McFlurry, ordering a Happy Meal at 2 a.m., or making the
-                  fries the centerpiece of a table for friends to share, these
-                  rituals bring joy and individuality to every visit.
+                  experience, deeply personal yet universally loved. Whether
+                  it&apos;s dipping fries in a McFlurry, ordering a Happy Meal
+                  at 2 a.m., or making the fries the centerpiece of a table for
+                  friends to share, these rituals bring joy and individuality to
+                  every visit.
                 </p>
               </div>
             </AnimatedElement>

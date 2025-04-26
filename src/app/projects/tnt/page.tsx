@@ -42,7 +42,7 @@ const TNTPage = () => {
             <AnimatedElement>
               <h1 className="text-4xl md:text-6xl font-bold mb-4">TNT</h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                Brand Identity, Digital Design, Marketing Campaign
+                Branding, Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
@@ -51,11 +51,11 @@ const TNTPage = () => {
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2022</p>
+                  <p className="text-xl font-medium">2017 - 2018</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">Art Director</p>
+                  <p className="text-xl font-medium">Designer & Art Director</p>
                 </div>
               </div>
             </AnimatedElement>
@@ -178,7 +178,7 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Billboard Music Awards 2017
+                Billboard Music Awards
               </h2>
             </AnimatedElement>
           </section>
@@ -241,7 +241,7 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Emmy Awards 2017
+                Emmy Awards
               </h2>
             </AnimatedElement>
           </section>
