@@ -43,7 +43,7 @@ const BoboChosesPage = () => {
                 Bobo Choses
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                UI Design, Visual Identity, Branding, Art Direction
+                UI Design, Art Direction, Creative Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
@@ -52,11 +52,11 @@ const BoboChosesPage = () => {
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2023</p>
+                  <p className="text-xl font-medium">2025</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">Creative Director</p>
+                  <p className="text-xl font-medium">UI Designer</p>
                 </div>
               </div>
             </AnimatedElement>
@@ -85,9 +85,10 @@ const BoboChosesPage = () => {
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
                   For this project, I was challenged to design a Landing Page
-                  and a Newsletter (both Desktop and Mobile) for Bobo Choses&apos;
-                  campaign Up is Down, building the entire storytelling,
-                  wireframes, UI design, and interactive prototype.
+                  and a Newsletter (both Desktop and Mobile) for Bobo
+                  Choses&apos; campaign Up is Down, building the entire
+                  storytelling, wireframes, UI design, and interactive
+                  prototype.
                 </p>
               </div>
             </AnimatedElement>
@@ -224,6 +225,26 @@ const BoboChosesPage = () => {
             </AnimatedElement>
           </section>
 
+          <section className="py-8">
+            <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Interactive LP Prototype
+              </h2>
+            </AnimatedElement>
+          </section>
+
+          <section className="py-8">
+            <AnimatedElement>
+              <iframe
+                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                width="800"
+                height="450"
+                src="https://embed.figma.com/design/SmDqEl7G4VkhGXn2GEbQ9o/Josefina-Freire-Knight---Bobo-Choses---Test?node-id=1-2669&embed-host=share"
+                allowFullScreen
+              ></iframe>
+            </AnimatedElement>
+          </section>
+
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
@@ -263,9 +284,9 @@ const BoboChosesPage = () => {
                     Newsletter aimed at promoting the Up is Down collection.
                     <br />
                     <br />
-                    The goal was to maintain consistency with the campaign&apos;s
-                    theme while optimizing the layout for both desktop and
-                    mobile users.
+                    The goal was to maintain consistency with the
+                    campaign&apos;s theme while optimizing the layout for both
+                    desktop and mobile users.
                   </p>
                 </div>
                 <div className="w-full md:w-1/2">
@@ -302,8 +323,8 @@ const BoboChosesPage = () => {
                     <br />
                     <li>
                       <strong>Footer with Brand Elements:</strong> Reinforcing
-                      Bobo Choses&apos; identity and including relevant links for
-                      further engagement.
+                      Bobo Choses&apos; identity and including relevant links
+                      for further engagement.
                     </li>
                   </ul>
                 </div>
