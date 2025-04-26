@@ -80,10 +80,10 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="w-full py-16">
+    <section className="w-full pt-16">
       <div className="px-4 md:px-12 lg:px-18">
         <AnimatedElement className="mb-4 text-start">
-          <h2 className="text-3xl font-medium text-gray-900 md:text-4xl">
+          <h2 id="projects" className="text-3xl font-medium text-gray-900 md:text-4xl">
             Projects
           </h2>
         </AnimatedElement>

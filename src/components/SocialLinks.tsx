@@ -11,24 +11,6 @@ export default function SocialLinks() {
         threshold={0.2}
         delay={100}
       >
-        {/* Behance */}
-        <Link
-          href="https://www.behance.net/JoseFreireKnight"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-gray-300 text-gray-700 transition-colors hover:bg-gray-900 hover:text-gray-200"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-          >
-            <path d="M8.228 15.01h-2.228v-2.01h2.261c1.878 0 2.003 1.794 0 2.01zm6.758-7.73h-3.486v1.67h3.486c1.043 0 1.369-1.67 0-1.67zm-6.758 3.73h-2.228v-2.01h2.261c1.616 0 1.766 2.01 0 2.01zm10.661-7.01h-14.667v-2h14.667v2zm-14.667 16h-1.989v-14h16.977v14h-14.988zm8.624-3.939c1.2.41 1.607 1.938 1.179 2.998-.331.811-1.022 1.155-1.845 1.267-.555.07-1.109.06-1.668.06v.584h-2.627c0-2.837.049-5.628 0-8.382h4.705c1.523 0 2.666.65 3.033 1.976.36 1.358-.036 2.868-1.381 3.53.244.236.478.472.604.769z" />
-          </svg>
-        </Link>
-
         {/* LinkedIn */}
         <Link
           href="https://www.linkedin.com/in/josefina-freire-knight/"
@@ -44,6 +26,24 @@ export default function SocialLinks() {
             fill="currentColor"
           >
             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+          </svg>
+        </Link>
+
+        {/* Email */}
+        <Link
+          href="mailto:josefreireknight@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-gray-300 text-gray-700 transition-colors hover:bg-gray-900 hover:text-gray-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
           </svg>
         </Link>
 
@@ -65,9 +65,9 @@ export default function SocialLinks() {
           </svg>
         </Link>
 
-        {/* Email */}
+        {/* Behance */}
         <Link
-          href="mailto:josefreireknight@gmail.com"
+          href="https://www.behance.net/JoseFreireKnight"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-10 w-10 items-center justify-center rounded-full bg-white border border-gray-300 text-gray-700 transition-colors hover:bg-gray-900 hover:text-gray-200"
@@ -79,7 +79,7 @@ export default function SocialLinks() {
             viewBox="0 0 24 24"
             fill="currentColor"
           >
-            <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+            <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z" />
           </svg>
         </Link>
       </AnimatedElement>

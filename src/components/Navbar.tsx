@@ -117,18 +117,13 @@ const Navbar = (props: {
         <div className="hidden lg:block">
           <ul className="flex items-center gap-8 2xsm:gap-4">
             <li>
-              <Link href="/projects">
+              <Link href="/#projects">
                 <p className="text-gray-400 hover:text-gray-900">Projects</p>
               </Link>
             </li>
             <li>
               <Link href="/resume">
                 <p className="text-gray-400 hover:text-gray-900">Resume</p>
-              </Link>
-            </li>
-            <li>
-              <Link href="/about-me">
-                <p className="text-gray-400 hover:text-gray-900">About me</p>
               </Link>
             </li>
           </ul>
@@ -149,13 +144,6 @@ const Navbar = (props: {
                 <Link href="/resume">
                   <p className="text-gray-400 hover:text-gray-900 py-2">
                     Resume
-                  </p>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about-me">
-                  <p className="text-gray-400 hover:text-gray-900 py-2">
-                    About me
                   </p>
                 </Link>
               </li>
