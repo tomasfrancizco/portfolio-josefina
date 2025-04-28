@@ -74,6 +74,7 @@ const BoboChosesPage = () => {
                   alt="Bobo Choses"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -106,6 +107,7 @@ const BoboChosesPage = () => {
                   alt="Bobo Choses branding showcase"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -114,8 +116,8 @@ const BoboChosesPage = () => {
           {/* Two Title and Text blocks in row on md+ */}
           <section className="py-8">
             <AnimatedElement>
-              <div className="flex flex-col md:flex-row gap-8">
-                <div className="w-full md:w-1/2">
+              <div className="flex flex-col gap-8">
+                <div className="w-full">
                   <h2 className="text-2xl font-bold mb-4">
                     Landing Page Concept & Design
                   </h2>
@@ -130,7 +132,7 @@ const BoboChosesPage = () => {
                     curiosity.
                   </p>
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full">
                   <h2 className="text-2xl font-bold mb-4">
                     Interactive Features & Storytelling
                   </h2>
@@ -194,6 +196,7 @@ const BoboChosesPage = () => {
                   alt="Bobo Choses digital experience"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -220,6 +223,7 @@ const BoboChosesPage = () => {
                   alt="Bobo Choses product photography"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -235,11 +239,12 @@ const BoboChosesPage = () => {
 
           <section className="py-8">
             <AnimatedElement>
+            
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-                width="800"
+                width="100%"
                 height="450"
-                src="https://embed.figma.com/design/SmDqEl7G4VkhGXn2GEbQ9o/Josefina-Freire-Knight---Bobo-Choses---Test?node-id=1-2669&embed-host=share"
+                src="https://embed.figma.com/proto/SmDqEl7G4VkhGXn2GEbQ9o/Josefina-Freire-Knight---Bobo-Choses---Test?page-id=&node-id=1-4193&viewport=123%2C195%2C0.06&scaling=min-zoom&content-scaling=fixed&embed-host=share"
                 allowFullScreen
               ></iframe>
             </AnimatedElement>
@@ -266,6 +271,7 @@ const BoboChosesPage = () => {
                   alt="Bobo Choses retail experience"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -274,8 +280,8 @@ const BoboChosesPage = () => {
           {/* Two Title and Text blocks in row on md+ */}
           <section className="py-8">
             <AnimatedElement>
-              <div className="flex flex-col md:flex-row gap-8">
-                <div className="w-full md:w-1/2">
+              <div className="flex flex-col gap-8">
+                <div className="w-full">
                   <h2 className="text-2xl font-bold mb-4">
                     Newsletter Concept & Design
                   </h2>
@@ -289,7 +295,7 @@ const BoboChosesPage = () => {
                     desktop and mobile users.
                   </p>
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full">
                   <h2 className="text-2xl font-bold mb-4">
                     Key Elements of the Newsletter:
                   </h2>
@@ -353,6 +359,7 @@ const BoboChosesPage = () => {
                   alt="Bobo Choses packaging design"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -379,6 +386,7 @@ const BoboChosesPage = () => {
                   alt="Bobo Choses packaging design"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>

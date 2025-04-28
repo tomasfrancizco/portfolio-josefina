@@ -78,6 +78,7 @@ const ProtectOurFutureTooPage = () => {
                   alt="Protect Our Future Too main image"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -109,6 +110,7 @@ const ProtectOurFutureTooPage = () => {
                   alt="Protect Our Future Too logo"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -155,6 +157,7 @@ const ProtectOurFutureTooPage = () => {
                   alt="Protect Our Future Too color palette"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -172,6 +175,7 @@ const ProtectOurFutureTooPage = () => {
                   alt="Protect Our Future Too email campaigns"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -189,6 +193,7 @@ const ProtectOurFutureTooPage = () => {
                   alt="Protect Our Future Too social media posts"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -206,6 +211,7 @@ const ProtectOurFutureTooPage = () => {
                   alt="Protect Our Future Too social media campaign"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -215,17 +221,19 @@ const ProtectOurFutureTooPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4 text-xl text-center">
-                  Check some of the videos we made for the campaign{" "}
-                  <a
-                    className="text-blue-500"
-                    href="https://www.youtube.com/watch?v=LEcgpUKvQBQ"
-                    target="_blank"
-                  >
-                    here
-                  </a>
-                  .
-                </p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  Campaign video
+                </h2>
+                <iframe
+                  className="w-full my-8"
+                  height="450"
+                  src="https://www.youtube.com/embed/LEcgpUKvQBQ?si=YqN6MIQm92qds-XC"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </div>
             </AnimatedElement>
           </section>

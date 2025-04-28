@@ -42,7 +42,7 @@ const TBSPage = () => {
             <AnimatedElement>
               <h1 className="text-4xl md:text-6xl font-bold mb-4">TBS</h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                Web Design, User Interface, Brand Application
+                UI Design, Brand Application
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
@@ -51,7 +51,7 @@ const TBSPage = () => {
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2022</p>
+                  <p className="text-xl font-medium">2018</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
@@ -73,6 +73,7 @@ const TBSPage = () => {
                   alt="TBS project overview"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -82,7 +83,7 @@ const TBSPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   Website design for TBS to reflect their new look and feel, and
                   to integrate new features and functionalities to enhance user
                   engagement.
@@ -92,20 +93,20 @@ const TBSPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Graphic Elements:
               </h2>
             </AnimatedElement>
           </section>
 
           {/* Two Images in a Row */}
-          <section className="py-8">
+          <section>
             <AnimatedElement>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2">
                 <div
-                  className="relative aspect-square w-full cursor-pointer"
+                  className="relative md:aspect-square w-full cursor-pointer"
                   onClick={() => openCarousel(1)}
                 >
                   <Image
@@ -113,10 +114,11 @@ const TBSPage = () => {
                     alt="TBS color palette"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
                 <div
-                  className="relative aspect-square w-full cursor-pointer"
+                  className="relative md:aspect-square w-full cursor-pointer"
                   onClick={() => openCarousel(2)}
                 >
                   <Image
@@ -124,6 +126,7 @@ const TBSPage = () => {
                     alt="TBS typographies"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
               </div>
@@ -131,9 +134,9 @@ const TBSPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pb-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Identifying the goals of the website redesign:
               </h2>
             </AnimatedElement>
@@ -176,6 +179,7 @@ const TBSPage = () => {
                   alt="TBS website mockup"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -184,7 +188,7 @@ const TBSPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer mb-6"
+                className="relative aspect-video w-full cursor-pointer"
                 onClick={() => openCarousel(4)}
               >
                 <Image
@@ -192,6 +196,7 @@ const TBSPage = () => {
                   alt="TBS design elements"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -208,6 +213,7 @@ const TBSPage = () => {
                   alt="TBS design elements"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -224,6 +230,7 @@ const TBSPage = () => {
                   alt="TBS mobile website mockup"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -240,6 +247,7 @@ const TBSPage = () => {
                   alt="TBS mobile website in use"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>

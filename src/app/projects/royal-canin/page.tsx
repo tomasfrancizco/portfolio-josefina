@@ -55,7 +55,7 @@ const RoyalCaninPage = () => {
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">Product Designer</p>
+                  <p className="text-xl font-medium">Art Director & Designer</p>
                 </div>
               </div>
             </AnimatedElement>
@@ -73,6 +73,7 @@ const RoyalCaninPage = () => {
                   alt="Royal Canin App Showcase"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -105,6 +106,7 @@ const RoyalCaninPage = () => {
                   alt="Royal Canin Brand Identity"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -113,7 +115,7 @@ const RoyalCaninPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Love at First Sight - Nurture for Life.
               </h2>
             </AnimatedElement>
@@ -150,6 +152,7 @@ const RoyalCaninPage = () => {
                   alt="Royal Canin App User Research"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -158,7 +161,7 @@ const RoyalCaninPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Emotional Content
               </h2>
             </AnimatedElement>
@@ -168,7 +171,7 @@ const RoyalCaninPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <h3 className="text-xl font-semibold mt-6 mb-2">
+                <h3 className="text-xl font-semibold mb-2">
                   Customer Love Stories:
                 </h3>
                 <p className="mb-4">
@@ -204,6 +207,7 @@ const RoyalCaninPage = () => {
                   alt="Royal Canin App Wireframes"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -212,7 +216,7 @@ const RoyalCaninPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Educational Content
               </h2>
             </AnimatedElement>
@@ -223,7 +227,7 @@ const RoyalCaninPage = () => {
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4"></p>
-                <h3 className="text-xl font-semibold mt-6 mb-2">
+                <h3 className="text-xl font-semibold mb-2">
                   Expert Recommendation:
                 </h3>
                 <p className="mb-4">
@@ -259,6 +263,7 @@ const RoyalCaninPage = () => {
                   alt="Royal Canin App Interface Design"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -267,7 +272,7 @@ const RoyalCaninPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Educational Content
               </h2>
             </AnimatedElement>
@@ -298,6 +303,7 @@ const RoyalCaninPage = () => {
                   alt="Royal Canin App Mobile Screens"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -306,7 +312,7 @@ const RoyalCaninPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Educational Content
               </h2>
             </AnimatedElement>
@@ -316,7 +322,7 @@ const RoyalCaninPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <h3 className="text-xl font-semibold mt-6 mb-2">Facts:</h3>
+                <h3 className="text-xl font-semibold mb-2">Facts:</h3>
                 <p className="mb-4">
                   Facts section for Instagram Feed offering concise, easily
                   digestible information, providing a valuable resource for pet

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Josefina Freire Knight",
   description: "Josefina Freire Knight -Graphic Designer from Barcelona",
   icons: {
-    icon: [{ url: "/profile-image.jpg", type: "image/jpg", sizes: "32x32" }],
+    icon: [{ url: "/favicon.png", type: "image/png", sizes: "32x32" }],
   },
 };
 
