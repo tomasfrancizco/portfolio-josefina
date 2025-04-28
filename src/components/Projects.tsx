@@ -23,7 +23,7 @@ const projects = [
   {
     id: 3,
     title: "Tickit App",
-    subtitle: "UI Design, Branding, Graphic Design",
+    subtitle: "UI Design, Mobile App, Branding, Graphic Design",
     imageSrc: "/thumbnails/header_thumbnail.jpg",
     link: "/projects/tickit-app",
   },
@@ -44,14 +44,14 @@ const projects = [
   {
     id: 6,
     title: "TNT",
-    subtitle: "Graphic Design, Art Direction",
+    subtitle: "Branding, Art Direction",
     imageSrc: "/thumbnails/TNT-Thumbnail.jpg",
     link: "/projects/tnt",
   },
   {
     id: 7,
     title: "Royal Canin",
-    subtitle: "Storytelling, Art Direction, Brand Guidelines",
+    subtitle: "Branding, Storytelling, Art Direction",
     imageSrc: "/thumbnails/RC_Thumbnail.jpg",
     link: "/projects/royal-canin",
   },
@@ -72,7 +72,7 @@ const projects = [
   {
     id: 10,
     title: "TBS",
-    subtitle: "UI Design",
+    subtitle: "UI Design, Brand Application",
     imageSrc: "/thumbnails/TBS-Thumbnail.jpg",
     link: "/projects/tbs",
   },
@@ -83,15 +83,18 @@ export default function Projects() {
     <section className="w-full py-16">
       <div className="px-4 md:px-12 lg:px-18">
         <AnimatedElement className="mb-4 text-start">
-          <h2 id="projects" className="text-3xl font-medium text-gray-900 md:text-4xl">
+          <h2
+            id="projects"
+            className="text-3xl font-medium text-gray-900 md:text-4xl"
+          >
             Projects
           </h2>
         </AnimatedElement>
 
         <AnimatedElement className="mb-12 text-start" delay={200}>
           <p className="max-w-2xl text-lg text-gray-700">
-            Explore my selected projects, showcasing my dedication to innovative
-            and heartfelt design.
+            Explore my selected projects where thoughtful design,
+            creativity, and user-focused solutions come together.
           </p>
         </AnimatedElement>
 

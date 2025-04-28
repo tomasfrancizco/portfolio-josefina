@@ -74,6 +74,7 @@ const McDonaldsPage = () => {
                   alt="McDonald's App"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -126,6 +127,7 @@ const McDonaldsPage = () => {
                   alt="McDonald's Design System"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -176,6 +178,7 @@ const McDonaldsPage = () => {
                   alt="McDonald's User Generated Content"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -193,6 +196,7 @@ const McDonaldsPage = () => {
                   alt="McDonald's App Interface"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -210,6 +214,7 @@ const McDonaldsPage = () => {
                   alt="McDonald's App Features"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -237,6 +242,7 @@ const McDonaldsPage = () => {
                     alt="McDonald's Push Notifications Design"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
                 <div
@@ -248,6 +254,7 @@ const McDonaldsPage = () => {
                     alt="McDonald's Push Notifications Examples"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
               </div>

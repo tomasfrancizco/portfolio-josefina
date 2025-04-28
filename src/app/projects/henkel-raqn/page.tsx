@@ -21,7 +21,7 @@ const projectImages = {
 // Convert project images to an array format for the carousel
 const carouselImages = Object.entries(projectImages).map(([key, src]) => ({
   src,
-  alt: `Henkel RAQN image ${key}`
+  alt: `Henkel RAQN image ${key}`,
 }));
 
 const HenkelRAQNPage = () => {
@@ -68,7 +68,7 @@ const HenkelRAQNPage = () => {
           {/* First Image */}
           <section className="py-8">
             <AnimatedElement>
-              <div 
+              <div
                 className="relative aspect-video w-full cursor-pointer"
                 onClick={() => openCarousel(0)}
               >
@@ -77,6 +77,7 @@ const HenkelRAQNPage = () => {
                   alt="Henkel RAQN"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -87,11 +88,15 @@ const HenkelRAQNPage = () => {
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
-                  Brand identity for RAQN, Henkel&apos;s internal Digital
-                  Business Platform. This platform serves as a central hub where
-                  employees can access various marketing materials. To create a
-                  memorable and engaging brand, we focused on the platform&apos;s
-                  name, RAQN, which is also represented by a raccoon mascot.
+                  <strong>
+                    Brand identity for RAQN, Henkel&apos;s internal Digital
+                    Business Platform
+                  </strong>
+                  <br />
+                  <br /> This platform serves as a central hub where employees
+                  can access various marketing materials. To create a memorable
+                  and engaging brand, we focused on the platform&apos;s name,
+                  RAQN, which is also represented by a raccoon mascot.
                 </p>
               </div>
             </AnimatedElement>
@@ -100,7 +105,7 @@ const HenkelRAQNPage = () => {
           {/* Full-width Image */}
           <section className="py-8">
             <AnimatedElement>
-              <div 
+              <div
                 className="relative aspect-video w-full cursor-pointer"
                 onClick={() => openCarousel(1)}
               >
@@ -109,6 +114,7 @@ const HenkelRAQNPage = () => {
                   alt="Henkel RAQN branding showcase"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -118,7 +124,7 @@ const HenkelRAQNPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="flex flex-col gap-8">
-                <div 
+                <div
                   className="relative aspect-video w-full cursor-pointer"
                   onClick={() => openCarousel(2)}
                 >
@@ -127,6 +133,7 @@ const HenkelRAQNPage = () => {
                     alt="Henkel RAQN design"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
               </div>
@@ -134,10 +141,10 @@ const HenkelRAQNPage = () => {
           </section>
 
           {/* Two Images in Row (on medium+) */}
-          <section className="py-8">
+          <section>
             <AnimatedElement>
               <div className="flex flex-col md:flex-row gap-6">
-                <div 
+                <div
                   className="w-full md:w-1/2 relative aspect-square cursor-pointer"
                   onClick={() => openCarousel(3)}
                 >
@@ -146,9 +153,10 @@ const HenkelRAQNPage = () => {
                     alt="Henkel RAQN design"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
-                <div 
+                <div
                   className="w-full md:w-1/2 relative aspect-square cursor-pointer"
                   onClick={() => openCarousel(4)}
                 >
@@ -157,6 +165,7 @@ const HenkelRAQNPage = () => {
                     alt="Henkel RAQN design"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
               </div>
@@ -181,7 +190,7 @@ const HenkelRAQNPage = () => {
           {/* Full-width Image */}
           <section className="py-8">
             <AnimatedElement>
-              <div 
+              <div
                 className="relative aspect-video w-full cursor-pointer"
                 onClick={() => openCarousel(5)}
               >
@@ -190,6 +199,7 @@ const HenkelRAQNPage = () => {
                   alt="Henkel RAQN interface showcase"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -208,7 +218,7 @@ const HenkelRAQNPage = () => {
                   This included GIFs for Microsoft Teams, which added a playful
                   element to daily interactions.
                 </p>
-                <br/>
+                <br />
                 <p>
                   We also designed merchandise like stickers featuring witty
                   phrases such as &quot;marketer by day, ninja by night&quot;,
@@ -228,7 +238,7 @@ const HenkelRAQNPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div 
+                <div
                   className="relative aspect-square cursor-pointer"
                   onClick={() => openCarousel(6)}
                 >
@@ -237,9 +247,10 @@ const HenkelRAQNPage = () => {
                     alt="Henkel RAQN results"
                     fill
                     className="object-cover"
+                    unoptimized 
                   />
                 </div>
-                <div 
+                <div
                   className="relative aspect-square cursor-pointer"
                   onClick={() => openCarousel(7)}
                 >
@@ -248,9 +259,10 @@ const HenkelRAQNPage = () => {
                     alt="Henkel RAQN results"
                     fill
                     className="object-cover rounded-lg"
+                    unoptimized
                   />
                 </div>
-                <div 
+                <div
                   className="relative aspect-square cursor-pointer"
                   onClick={() => openCarousel(8)}
                 >
@@ -259,9 +271,10 @@ const HenkelRAQNPage = () => {
                     alt="Henkel RAQN results"
                     fill
                     className="object-cover rounded-lg"
+                    unoptimized
                   />
                 </div>
-                <div 
+                <div
                   className="relative aspect-square cursor-pointer"
                   onClick={() => openCarousel(9)}
                 >
@@ -270,6 +283,7 @@ const HenkelRAQNPage = () => {
                     alt="Henkel RAQN results"
                     fill
                     className="object-cover rounded-lg"
+                    unoptimized
                   />
                 </div>
               </div>

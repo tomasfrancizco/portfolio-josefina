@@ -73,6 +73,7 @@ const TNTPage = () => {
                   alt="TNT main image"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -82,7 +83,7 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   In charge of creating content for TNT’s Digital Platforms for
                   their regular programming and live events.
                 </p>
@@ -102,6 +103,7 @@ const TNTPage = () => {
                   alt="TNT brand identity"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -110,7 +112,7 @@ const TNTPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Temporada de Premios
               </h2>
             </AnimatedElement>
@@ -152,6 +154,7 @@ const TNTPage = () => {
                   alt="TNT typography system"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -169,6 +172,7 @@ const TNTPage = () => {
                   alt="TNT color palette"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -177,7 +181,7 @@ const TNTPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Billboard Music Awards
               </h2>
             </AnimatedElement>
@@ -215,6 +219,7 @@ const TNTPage = () => {
                   alt="TNT digital design"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -232,6 +237,7 @@ const TNTPage = () => {
                   alt="TNT user interface"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -240,7 +246,7 @@ const TNTPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Emmy Awards
               </h2>
             </AnimatedElement>
@@ -275,6 +281,7 @@ const TNTPage = () => {
                   alt="TNT campaign materials"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -292,6 +299,7 @@ const TNTPage = () => {
                   alt="TNT implementation examples"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>

@@ -40,7 +40,7 @@ const TinyCottonsPage = () => {
                 Tiny Cottons
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                Social Media, Brand Design, Content Creation
+                Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
@@ -49,11 +49,11 @@ const TinyCottonsPage = () => {
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2023</p>
+                  <p className="text-xl font-medium">2021</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">Social Media Designer</p>
+                  <p className="text-xl font-medium">Art Director & Designer</p>
                 </div>
               </div>
             </AnimatedElement>
@@ -71,6 +71,7 @@ const TinyCottonsPage = () => {
                   alt="Tiny Cottons brand overview"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -105,6 +106,7 @@ const TinyCottonsPage = () => {
                   alt="Tiny Cottons graphic elements"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -122,6 +124,7 @@ const TinyCottonsPage = () => {
                   alt="Tiny Cottons Kids Instagram mockup"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -130,7 +133,7 @@ const TinyCottonsPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 The idea behind it
               </h2>
             </AnimatedElement>
@@ -164,6 +167,7 @@ const TinyCottonsPage = () => {
                   alt="Tiny Cottons Women Instagram mockup"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>

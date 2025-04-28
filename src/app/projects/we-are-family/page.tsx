@@ -7,11 +7,11 @@ import { FullscreenImageCarousel } from "@/components/ImageCarousel";
 
 const projectImages = {
   "1": "/projects/we-are-family/CADE-Thumbnail.jpg",
-  "2": "/projects/we-are-family/LP_Slide.jpg",
-  "3": "/projects/we-are-family/mockup-LP.jpg",
-  "4": "/projects/we-are-family/Interactive-Tool_Slide.jpg",
+  "2": "/projects/we-are-family/Interactive-Tool_Slide.jpg",
+  "3": "/projects/we-are-family/SM-Assets_Slide.jpg",
+  "4": "/projects/we-are-family/LP_Slide.jpg",
   "5": "/projects/we-are-family/Emails_Slide.jpg",
-  "6": "/projects/we-are-family/SM-Assets_Slide.jpg",
+  "6": "/projects/we-are-family/mockup-LP.jpg",
 };
 
 // Convert project images to an array format for the carousel
@@ -42,20 +42,22 @@ const WeAreFamilyPage = () => {
                 We Are Family
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                Web Design, Digital Campaign, UX/UI Design
+                UI Design, Art Direction, Illustration, Graphic Design
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Client</p>
-                  <p className="text-xl font-medium">CADE Foundation</p>
+                  <p className="text-xl font-medium">Merck</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2023</p>
+                  <p className="text-xl font-medium">2022 - 2023</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">Digital Designer</p>
+                  <p className="text-xl font-medium">
+                    UI Designer & Art Director
+                  </p>
                 </div>
               </div>
             </AnimatedElement>
@@ -73,6 +75,7 @@ const WeAreFamilyPage = () => {
                   alt="We Are Family campaign overview"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -95,6 +98,15 @@ const WeAreFamilyPage = () => {
             </AnimatedElement>
           </section>
 
+          {/* Title */}
+          <section className="py-8">
+            <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold">
+                Cat Pantry Campaign
+              </h2>
+            </AnimatedElement>
+          </section>
+
           {/* Second Image */}
           <section className="py-8">
             <AnimatedElement>
@@ -104,20 +116,12 @@ const WeAreFamilyPage = () => {
               >
                 <Image
                   src={projectImages["2"]}
-                  alt="We Are Family landing page design"
+                  alt="We Are Family interactive tool"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
-            </AnimatedElement>
-          </section>
-
-          {/* Title */}
-          <section className="py-8">
-            <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Cat Pantry Campaign
-              </h2>
             </AnimatedElement>
           </section>
 
@@ -126,7 +130,7 @@ const WeAreFamilyPage = () => {
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
-                  Campaign that consists on bringing awareness on which human
+                  A campaign that consists on bringing awareness on which human
                   foods are okay or a hazard for cats. It&apos;s main asset is
                   an Interactive tool where you can click on elements to see
                   which ones were friendly for your kitty&apos;s menu, and which
@@ -139,7 +143,7 @@ const WeAreFamilyPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Third Image */}
+          {/* Fourth Image */}
           <section className="py-8">
             <AnimatedElement>
               <div
@@ -148,15 +152,16 @@ const WeAreFamilyPage = () => {
               >
                 <Image
                   src={projectImages["3"]}
-                  alt="We Are Family landing page mockup"
+                  alt="We Are Family social media assets"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
           </section>
 
-          {/* Fourth Image */}
+          {/* Third Image */}
           <section className="py-8">
             <AnimatedElement>
               <div
@@ -165,9 +170,10 @@ const WeAreFamilyPage = () => {
               >
                 <Image
                   src={projectImages["4"]}
-                  alt="We Are Family interactive tool"
+                  alt="We Are Family landing page mockup"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -185,6 +191,7 @@ const WeAreFamilyPage = () => {
                   alt="We Are Family email templates"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -199,9 +206,10 @@ const WeAreFamilyPage = () => {
               >
                 <Image
                   src={projectImages["6"]}
-                  alt="We Are Family social media assets"
+                  alt="We Are Family landing page mockup"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>

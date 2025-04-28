@@ -74,6 +74,7 @@ const TickitAppPage = () => {
                   alt="Tickit App header image"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -106,6 +107,7 @@ const TickitAppPage = () => {
                   alt="Tickit App design overview"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -148,6 +150,7 @@ const TickitAppPage = () => {
                   alt="Tickit App user flow"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -165,6 +168,7 @@ const TickitAppPage = () => {
                   alt="Tickit App wireframes"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -182,6 +186,7 @@ const TickitAppPage = () => {
                   alt="Tickit App user interface"
                   fill
                   className="object-cover"
+                  objectFit="contain"
                 />
               </div>
             </AnimatedElement>
@@ -200,6 +205,7 @@ const TickitAppPage = () => {
                     alt="Tickit App mobile mockups"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
                 <div
@@ -211,6 +217,7 @@ const TickitAppPage = () => {
                     alt="Tickit App vet interface"
                     fill
                     className="object-cover"
+                    objectFit="contain"
                   />
                 </div>
               </div>
