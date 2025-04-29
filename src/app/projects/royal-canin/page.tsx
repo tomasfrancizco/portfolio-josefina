@@ -33,7 +33,7 @@ const RoyalCaninPage = () => {
 
   return (
     <DefaultLayout>
-      <div className="flex flex-col items-center text-gray-900">
+      <div className="flex flex-col items-center text-gray-900 pt-[80px] md:pt-[120px]">
         <div className="max-w-[800px] w-full px-4 md:px-6">
           {/* Title Section */}
           <section className="py-16">
