@@ -10,20 +10,15 @@ export default function DefaultLayout({ children }: DefaultLayoutProps) {
   return (
     <>
       {/* <!-- ===== Page Wrapper Start ===== --> */}
-      <div className="flex h-screen overflow-hidden bg-gray-100">
-        {/* <!-- ===== Content Area Start ===== --> */}
-        <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
+      <div className="relative min-h-screen bg-gray-100">
+        {/* <!-- ===== Main Content Start ===== --> */}
+        <main className="w-full">
           {/* <!-- ===== Navbar Start ===== --> */}
           <Navbar sidebarOpen={false} setSidebarOpen={() => {}} />
           {/* <!-- ===== Navbar End ===== --> */}
-
-          {/* <!-- ===== Main Content Start ===== --> */}
-          <main>
-            <div className="">{children}</div>
-          </main>
-          {/* <!-- ===== Main Content End ===== --> */}
-        </div>
-        {/* <!-- ===== Content Area End ===== --> */}
+          <div className="w-full">{children}</div>
+        </main>
+        {/* <!-- ===== Main Content End ===== --> */}
       </div>
       {/* <!-- ===== Page Wrapper End ===== --> */}
     </>

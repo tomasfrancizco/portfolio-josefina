@@ -45,15 +45,15 @@ const TNTPage = () => {
                 Branding, Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">TNT</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2017 - 2018</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">Designer & Art Director</p>
                 </div>
@@ -160,6 +160,15 @@ const TNTPage = () => {
             </AnimatedElement>
           </section>
 
+          {/* Title */}
+          <section className="py-8">
+            <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold">
+                Billboard Music Awards
+              </h2>
+            </AnimatedElement>
+          </section>
+
           {/* Fourth Image */}
           <section className="py-8">
             <AnimatedElement>
@@ -175,15 +184,6 @@ const TNTPage = () => {
                   objectFit="contain"
                 />
               </div>
-            </AnimatedElement>
-          </section>
-
-          {/* Title */}
-          <section className="py-8">
-            <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold">
-                Billboard Music Awards
-              </h2>
             </AnimatedElement>
           </section>
 
@@ -246,9 +246,7 @@ const TNTPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold">
-                Emmy Awards
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-bold">Emmy Awards</h2>
             </AnimatedElement>
           </section>
 

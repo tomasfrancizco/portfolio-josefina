@@ -46,15 +46,15 @@ const BoboChosesPage = () => {
                 UI Design, Art Direction, Creative Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">Bobo Choses</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2025</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">UI Designer</p>
                 </div>

@@ -7,7 +7,8 @@ const Navbar = (props: {
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [visible, setVisible] = useState(true);
-  const prevScrollPosRef = useRef(0);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const resumeLink = "https://www.notion.so/josefreireknight/Josefina-Freire-Knight-1de675fd9b07805b9c2fd553388104a5?pvs=4";
 
@@ -23,35 +24,87 @@ const Navbar = (props: {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // Create a sentinel element for scroll detection
   useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
+    // Only run on client side
+    if (typeof window === "undefined") return;
 
-      const isScrollingUp = prevScrollPosRef.current > currentScrollPos;
-      const isAtTop = currentScrollPos < 10;
+    // Create a sentinel element at the top of the page
+    const sentinel = document.createElement('div');
+    sentinel.style.position = 'absolute';
+    sentinel.style.top = '0';
+    sentinel.style.height = '1px';
+    sentinel.style.width = '100%';
+    sentinel.style.pointerEvents = 'none';
+    document.body.prepend(sentinel);
+    sentinelRef.current = sentinel;
 
-      console.log(isScrollingUp);
-      console.log("prev", prevScrollPosRef.current);
-      console.log("current", currentScrollPos);
-
-      // Update visibility based on scroll direction
-      setVisible(isScrollingUp || isAtTop);
-
-      // Update the scroll position
-      prevScrollPosRef.current = currentScrollPos;
+    // Initialize the intersection observer
+    const options = {
+      threshold: [0, 0.1, 0.2, 1.0],
+      rootMargin: '0px'
     };
 
-    // Set initial scroll position
-    prevScrollPosRef.current = window.scrollY;
+    let lastScrollY = window.scrollY;
+    let ticking = false;
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const isScrollingUp = lastScrollY > currentScrollPos;
+          const isAtTop = currentScrollPos < 10;
+          
+          setVisible(isScrollingUp || isAtTop);
+          
+          lastScrollY = currentScrollPos;
+          ticking = false;
+        });
+        
+        ticking = true;
+      }
+    };
+
+    // Set up intersection observer for the top of the page
+    observerRef.current = new IntersectionObserver((entries) => {
+      // When sentinel enters/exits the viewport, update navbar visibility
+      entries.forEach(entry => {
+        
+        if (entry.isIntersecting) {
+          setVisible(true);
+        } else {
+          // When not at the top, use scroll direction to determine visibility
+          handleScroll();
+        }
+      });
+    }, options);
+
+    if (sentinelRef.current) {
+      observerRef.current.observe(sentinelRef.current);
+    }
+
+    // Add scroll event for scroll direction detection
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      
+      if (observerRef.current && sentinelRef.current) {
+        observerRef.current.unobserve(sentinelRef.current);
+        observerRef.current.disconnect();
+      }
+      
+      if (sentinelRef.current && sentinelRef.current.parentNode) {
+        sentinelRef.current.parentNode.removeChild(sentinelRef.current);
+      }
+    };
   }, []);
 
   return (
     <header
-      className={`sticky top-0 z-999 flex w-full bg-white drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none outline outline-gray-100 ${
-        visible ? "opacity-100" : "opacity-0"
+      className={`fixed top-0 z-999 flex w-full bg-white drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none outline outline-gray-100 transition-opacity duration-300 ease-in-out ${
+        visible ? "opacity-100 translate-y-0" : "opacity-0 pointer-events-none"
       }`}
     >
       <div className="flex flex-grow items-center justify-between m-3 px-4 py-4 shadow-2 md:px-6 2xl:px-11">

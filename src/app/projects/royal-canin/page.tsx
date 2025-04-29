@@ -45,15 +45,15 @@ const RoyalCaninPage = () => {
                 Branding, Storytelling, Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">Royal Canin</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2024</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">Art Director & Designer</p>
                 </div>

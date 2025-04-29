@@ -45,15 +45,15 @@ const WeAreFamilyPage = () => {
                 UI Design, Art Direction, Illustration, Graphic Design
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">Merck</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2022 - 2023</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">
                     UI Designer & Art Director
