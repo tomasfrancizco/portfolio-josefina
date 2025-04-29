@@ -12,11 +12,10 @@ const projectImages = {
   "4": "/projects/poft/poft-Emails.jpg",
   "5": "/projects/poft/poft-SM-posts.jpg",
   "6": "/projects/poft/poft-SM-posts-2.jpg",
-  // Since we don't have enough distinct images, reusing some for the grid
-  "7": "/projects/poft/poft-Logo.jpg",
-  "8": "/projects/poft/poft-Palette.jpg",
-  "9": "/projects/poft/poft-Emails.jpg",
-  "10": "/projects/poft/poft-SM-posts.jpg",
+  "7": "/projects/poft/mockup.jpg",
+  "8": "/projects/poft/OneHealth-flyer_Mockup.jpg",  
+  "9": "/projects/poft/Hardcover-Book-Mockup-Presentation.jpg",
+  "10": "/projects/poft/Desk-Calendar-Mockup-1.jpg",
 };
 
 // Convert project images to an array format for the carousel
@@ -50,15 +49,15 @@ const ProtectOurFutureTooPage = () => {
                 Branding, UI Design, Brand Guidelines
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">Merck</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2019 - 2021</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4">
+                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">Branding & UI Designer</p>
                 </div>
@@ -213,6 +212,71 @@ const ProtectOurFutureTooPage = () => {
                   className="object-cover"
                   objectFit="contain"
                 />
+              </div>
+            </AnimatedElement>
+          </section>
+
+          {/* Group 1: Two images in a row (md+) or column (sm) */}
+          <section>
+            <AnimatedElement>
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <div 
+                  className="relative flex justify-center items-center w-full cursor-pointer md:col-span-5"
+                  onClick={() => openCarousel(6)}
+                >
+                  <Image
+                    src="/projects/poft/mockup.jpg"
+                    alt="Protect Our Future Too mockup"
+                    height={500}
+                    width={500}
+                    className="object-cover"
+                    objectFit="contain"
+                  />
+                </div>
+                <div 
+                  className="relative flex justify-center items-center w-full cursor-pointer md:col-span-7"
+                  onClick={() => openCarousel(7)}
+                >
+                  <Image
+                    src="/projects/poft/OneHealth-flyer_Mockup.jpg"
+                    alt="One Health flyer mockup"
+                    height="375"
+                    width="500"
+                    className="object-cover md:max-h-[299px]"
+                  />
+                </div>
+              </div>
+            </AnimatedElement>
+          </section>
+
+          {/* Group 2: Two images in a row (md+) or column (sm) */}
+          <section className="py-6">
+            <AnimatedElement>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div 
+                  className="relative aspect-video w-full cursor-pointer"
+                  onClick={() => openCarousel(8)}
+                >
+                  <Image
+                    src="/projects/poft/Hardcover-Book-Mockup-Presentation.jpg"
+                    alt="Hardcover book mockup presentation"
+                    fill
+                    className="object-cover"
+                    // objectFit="contain"
+                  />
+                </div>
+                <div 
+                  className="relative aspect-video w-full cursor-pointer"
+                  onClick={() => openCarousel(9)}
+                >
+                  <Image
+                    src="/projects/poft/Desk-Calendar-Mockup-1.jpg"
+                    alt="Desk calendar mockup"
+                    fill
+                    className="object-cover"
+                    // objectFit="contain"
+                  />
+                </div>
               </div>
             </AnimatedElement>
           </section>

@@ -44,12 +44,30 @@ export function FullscreenImageCarousel({
     };
 
     window.addEventListener("keydown", handleKeyDown);
-    // Prevent scrolling when modal is open
-    document.body.style.overflow = "hidden";
+    // Prevent scrolling when modal is open, but in a way that doesn't break scroll detection
+    const originalStyle = document.body.style.overflow;
+    const originalPosition = document.body.style.position;
+    const originalWidth = document.body.style.width;
+    const originalTop = document.body.style.top;
+    
+    // Store the current scroll position
+    const scrollY = window.scrollY;
+    
+    // Use position: fixed instead of overflow: hidden to prevent layout shifts
+    // while still disabling scrolling
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = '100%';
+    document.body.style.overflow = 'hidden';
 
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
-      document.body.style.overflow = "auto";
+      // Restore original styles and scroll position
+      document.body.style.position = originalPosition;
+      document.body.style.top = originalTop;
+      document.body.style.width = originalWidth;
+      document.body.style.overflow = originalStyle;
+      window.scrollTo(0, scrollY);
     };
   }, [currentIndex, images.length, onClose, setCurrentIndex]);
 
