@@ -48,34 +48,34 @@ const projects = [
     imageSrc: "/thumbnails/TNT-Thumbnail.jpg",
     link: "/projects/tnt",
   },
+  // {
+  //   id: 7,
+  //   title: "Royal Canin",
+  //   subtitle: "Branding, Storytelling, Art Direction",
+  //   imageSrc: "/thumbnails/RC_Thumbnail.jpg",
+  //   link: "/projects/royal-canin",
+  // },
   {
     id: 7,
-    title: "Royal Canin",
-    subtitle: "Branding, Storytelling, Art Direction",
-    imageSrc: "/thumbnails/RC_Thumbnail.jpg",
-    link: "/projects/royal-canin",
-  },
-  {
-    id: 8,
     title: "Tiny Cottons",
     subtitle: "Art Direction",
     imageSrc: "/thumbnails/Tiny-Thumbnail.jpg",
     link: "/projects/tiny-cottons",
   },
   {
-    id: 9,
+    id: 8,
     title: "We Are Family",
     subtitle: "UI Design, Art Direction, Illustration, Graphic Design",
     imageSrc: "/thumbnails/CADE-Thumbnail.jpg",
     link: "/projects/we-are-family",
   },
-  {
-    id: 10,
-    title: "TBS",
-    subtitle: "UI Design, Brand Application",
-    imageSrc: "/thumbnails/TBS-Thumbnail.jpg",
-    link: "/projects/tbs",
-  },
+  // {
+  //   id: 10,
+  //   title: "TBS",
+  //   subtitle: "UI Design, Brand Application",
+  //   imageSrc: "/thumbnails/TBS-Thumbnail.jpg",
+  //   link: "/projects/tbs",
+  // },
 ];
 
 export default function Projects() {

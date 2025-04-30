@@ -46,15 +46,15 @@ const TickitAppPage = () => {
                 UI Design, Mobile App, Branding, Graphic Design
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">Merck</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2019 - 2020</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">Branding & UI Designer</p>
                 </div>
@@ -66,15 +66,16 @@ const TickitAppPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(0)}
               >
                 <Image
                   src={projectImages["1"]}
                   alt="Tickit App header image"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -99,15 +100,16 @@ const TickitAppPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(1)}
               >
                 <Image
                   src={projectImages["2"]}
                   alt="Tickit App design overview"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -142,15 +144,16 @@ const TickitAppPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(2)}
               >
                 <Image
                   src={projectImages["3"]}
                   alt="Tickit App user flow"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -160,15 +163,16 @@ const TickitAppPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(3)}
               >
                 <Image
                   src={projectImages["4"]}
                   alt="Tickit App wireframes"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -178,15 +182,16 @@ const TickitAppPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(4)}
               >
                 <Image
                   src={projectImages["5"]}
                   alt="Tickit App user interface"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -195,29 +200,29 @@ const TickitAppPage = () => {
           {/* Two Images in Row (on medium+) */}
           <section className="py-8">
             <AnimatedElement>
-              <div className="flex flex-col md:flex-row gap-6">
-                <div
-                  className="w-full md:w-1/2 relative aspect-square cursor-pointer"
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-6">
+                <div 
+                  className="relative flex justify-center items-center w-full cursor-pointer md:col-span-5"
                   onClick={() => openCarousel(5)}
                 >
                   <Image
                     src={projectImages["6"]}
                     alt="Tickit App mobile mockups"
-                    fill
-                    className="object-cover"
-                    objectFit="contain"
+                    height={500}
+                    width={500}
+                    className="object-cover max-h-[286px]"
                   />
                 </div>
-                <div
-                  className="w-full md:w-1/2 relative aspect-square cursor-pointer"
+                <div 
+                  className="relative flex justify-center items-center w-full cursor-pointer md:col-span-7"
                   onClick={() => openCarousel(6)}
                 >
                   <Image
                     src={projectImages["7"]}
                     alt="Tickit App vet interface"
-                    fill
-                    className="object-cover"
-                    objectFit="contain"
+                    height={500}
+                    width={500}
+                    className="object-cover max-h-[350px]"
                   />
                 </div>
               </div>
@@ -235,13 +240,15 @@ const TickitAppPage = () => {
               </div>
               <a
                 href="/projects/protect-our-future-too"
-                className="block relative aspect-video w-full"
+                className="block relative w-full"
               >
                 <Image
                   src="/thumbnails/Poft-Thumbnail.jpg"
                   alt="Protect Our Future Too"
-                  fill
-                  className="object-cover rounded-lg transition-all duration-300 hover:opacity-90"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </a>
             </AnimatedElement>

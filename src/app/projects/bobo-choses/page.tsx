@@ -46,15 +46,15 @@ const BoboChosesPage = () => {
                 UI Design, Art Direction, Creative Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">Bobo Choses</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2025</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">UI Designer</p>
                 </div>
@@ -66,15 +66,16 @@ const BoboChosesPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(0)}
               >
                 <Image
                   src={projectImages["1"]}
                   alt="Bobo Choses"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -99,15 +100,16 @@ const BoboChosesPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(1)}
               >
                 <Image
                   src={projectImages["2"]}
                   alt="Bobo Choses branding showcase"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -188,15 +190,16 @@ const BoboChosesPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(2)}
               >
                 <Image
                   src={projectImages["3"]}
                   alt="Bobo Choses digital experience"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -215,15 +218,16 @@ const BoboChosesPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(3)}
               >
                 <Image
                   src={projectImages["4"]}
                   alt="Bobo Choses product photography"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -263,15 +267,16 @@ const BoboChosesPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(4)}
               >
                 <Image
                   src={projectImages["5"]}
                   alt="Bobo Choses retail experience"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -351,15 +356,16 @@ const BoboChosesPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(5)}
               >
                 <Image
                   src={projectImages["6"]}
                   alt="Bobo Choses packaging design"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -378,15 +384,16 @@ const BoboChosesPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(5)}
               >
                 <Image
                   src={projectImages["7"]}
                   alt="Bobo Choses packaging design"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -425,13 +432,15 @@ const BoboChosesPage = () => {
               </div>
               <a
                 href="/projects/tickit-app"
-                className="block relative aspect-video w-full"
+                className="block relative w-full"
               >
                 <Image
                   src="/thumbnails/header_thumbnail.jpg"
                   alt="Tickit App"
-                  fill
-                  className="object-cover rounded-lg transition-all duration-300 hover:opacity-90"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </a>
             </AnimatedElement>

@@ -49,15 +49,15 @@ const HenkelRAQNPage = () => {
                 UI Design, Design System, Branding, Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">Henkel</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2024</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">Lead Designer</p>
                 </div>
@@ -69,15 +69,16 @@ const HenkelRAQNPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(0)}
               >
                 <Image
                   src={projectImages["1"]}
                   alt="Henkel RAQN"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -106,68 +107,71 @@ const HenkelRAQNPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(1)}
               >
                 <Image
                   src={projectImages["2"]}
                   alt="Henkel RAQN branding showcase"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
           </section>
 
-          {/* Two Images in Column */}
           <section className="py-8">
             <AnimatedElement>
-              <div className="flex flex-col gap-8">
-                <div
-                  className="relative aspect-video w-full cursor-pointer"
-                  onClick={() => openCarousel(2)}
-                >
-                  <Image
-                    src={projectImages["3"]}
-                    alt="Henkel RAQN design"
-                    fill
-                    className="object-cover"
-                    objectFit="contain"
-                  />
-                </div>
+              <div
+                className="w-full cursor-pointer"
+                onClick={() => openCarousel(2)}
+              >
+                <Image
+                  src={projectImages["3"]}
+                  alt="Henkel RAQN design"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
+                />
               </div>
             </AnimatedElement>
           </section>
 
-          {/* Two Images in Row (on medium+) */}
-          <section>
+          <section className="py-8">
             <AnimatedElement>
-              <div className="flex flex-col md:flex-row gap-6">
-                <div
-                  className="w-full md:w-1/2 relative aspect-square cursor-pointer"
-                  onClick={() => openCarousel(3)}
-                >
-                  <Image
-                    src={projectImages["4"]}
-                    alt="Henkel RAQN design"
-                    fill
-                    className="object-cover"
-                    objectFit="contain"
-                  />
-                </div>
-                <div
-                  className="w-full md:w-1/2 relative aspect-square cursor-pointer"
-                  onClick={() => openCarousel(4)}
-                >
-                  <Image
-                    src={projectImages["5"]}
-                    alt="Henkel RAQN design"
-                    fill
-                    className="object-cover"
-                    objectFit="contain"
-                  />
-                </div>
+              <div
+                className="w-full cursor-pointer"
+                onClick={() => openCarousel(3)}
+              >
+                <Image
+                  src={projectImages["4"]}
+                  alt="Henkel RAQN design"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
+            </AnimatedElement>
+          </section>
+
+          <section className="py-8">
+            <AnimatedElement>
+              <div
+                className="w-full cursor-pointer"
+                onClick={() => openCarousel(4)}
+              >
+                <Image
+                  src={projectImages["5"]}
+                  alt="Henkel RAQN design"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
+                />
               </div>
             </AnimatedElement>
           </section>
@@ -191,15 +195,16 @@ const HenkelRAQNPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(5)}
               >
                 <Image
                   src={projectImages["6"]}
                   alt="Henkel RAQN interface showcase"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -247,7 +252,7 @@ const HenkelRAQNPage = () => {
                     alt="Henkel RAQN results"
                     fill
                     className="object-cover"
-                    unoptimized 
+                    unoptimized
                   />
                 </div>
                 <div
@@ -304,8 +309,10 @@ const HenkelRAQNPage = () => {
                 <Image
                   src="/projects/bobo-choses/Thumbnail---Bobo-Choses.jpg"
                   alt="Bobo Choses"
-                  fill
-                  className="object-cover rounded-lg transition-all duration-300 hover:opacity-90"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </a>
             </AnimatedElement>
