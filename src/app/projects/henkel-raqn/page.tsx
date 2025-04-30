@@ -244,52 +244,64 @@ const HenkelRAQNPage = () => {
             <AnimatedElement>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div
-                  className="relative aspect-square cursor-pointer"
+                  className="relative aspect-square cursor-pointer overflow-hidden rounded-lg"
                   onClick={() => openCarousel(6)}
+                  style={{ backgroundColor: "#f8f8f8" }}
                 >
-                  <Image
-                    src={projectImages["7"]}
-                    alt="Henkel RAQN results"
-                    fill
-                    className="object-cover"
-                    unoptimized
-                  />
+                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: "-3px", overflow: "hidden" }}>
+                    <Image
+                      src={projectImages["7"]}
+                      alt="Henkel RAQN results"
+                      fill
+                      className="object-cover"
+                      unoptimized
+                    />
+                  </div>
                 </div>
                 <div
-                  className="relative aspect-square cursor-pointer"
+                  className="relative aspect-square cursor-pointer overflow-hidden rounded-lg"
                   onClick={() => openCarousel(7)}
+                  style={{ backgroundColor: "#f8f8f8" }}
                 >
-                  <Image
-                    src={projectImages["8"]}
-                    alt="Henkel RAQN results"
-                    fill
-                    className="object-cover rounded-lg"
-                    unoptimized
-                  />
+                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: "-3px", overflow: "hidden" }}>
+                    <Image
+                      src={projectImages["8"]}
+                      alt="Henkel RAQN results"
+                      fill
+                      className="object-cover"
+                      unoptimized
+                    />
+                  </div>
                 </div>
                 <div
-                  className="relative aspect-square cursor-pointer"
+                  className="relative aspect-square cursor-pointer overflow-hidden rounded-lg"
                   onClick={() => openCarousel(8)}
+                  style={{ backgroundColor: "#f8f8f8" }}
                 >
-                  <Image
-                    src={projectImages["9"]}
-                    alt="Henkel RAQN results"
-                    fill
-                    className="object-cover rounded-lg"
-                    unoptimized
-                  />
+                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: "-3px", overflow: "hidden" }}>
+                    <Image
+                      src={projectImages["9"]}
+                      alt="Henkel RAQN results"
+                      fill
+                      className="object-cover"
+                      unoptimized
+                    />
+                  </div>
                 </div>
                 <div
-                  className="relative aspect-square cursor-pointer"
+                  className="relative aspect-square cursor-pointer overflow-hidden rounded-lg"
                   onClick={() => openCarousel(9)}
+                  style={{ backgroundColor: "#f8f8f8" }}
                 >
-                  <Image
-                    src={projectImages["10"]}
-                    alt="Henkel RAQN results"
-                    fill
-                    className="object-cover rounded-lg"
-                    unoptimized
-                  />
+                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: "-3px", overflow: "hidden" }}>
+                    <Image
+                      src={projectImages["10"]}
+                      alt="Henkel RAQN results"
+                      fill
+                      className="object-cover"
+                      unoptimized
+                    />
+                  </div>
                 </div>
               </div>
             </AnimatedElement>
