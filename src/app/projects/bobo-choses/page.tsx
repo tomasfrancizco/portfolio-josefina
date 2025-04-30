@@ -85,7 +85,7 @@ const BoboChosesPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   For this project, I was challenged to design a Landing Page
                   and a Newsletter (both Desktop and Mobile) for Bobo
                   Choses&apos; campaign Up is Down, building the entire
@@ -178,9 +178,9 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Desktop Version
               </h2>
             </AnimatedElement>
@@ -206,11 +206,9 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Mobile Version
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-bold">Mobile Version</h2>
             </AnimatedElement>
           </section>
 
@@ -233,9 +231,9 @@ const BoboChosesPage = () => {
             </AnimatedElement>
           </section>
 
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Interactive LP Prototype
               </h2>
             </AnimatedElement>
@@ -243,7 +241,6 @@ const BoboChosesPage = () => {
 
           <section className="py-8">
             <AnimatedElement>
-            
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
                 width="100%"
@@ -255,11 +252,9 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Newsletter
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-bold">Newsletter</h2>
             </AnimatedElement>
           </section>
 
@@ -344,9 +339,9 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Desktop Version
               </h2>
             </AnimatedElement>
@@ -372,11 +367,9 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Mobile Version
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-bold">Mobile Version</h2>
             </AnimatedElement>
           </section>
 
@@ -399,20 +392,14 @@ const BoboChosesPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Title */}
+          {/* Text Section */}
           <section className="py-8">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Outcome & Reflections
               </h2>
-            </AnimatedElement>
-          </section>
-
-          {/* Text Section */}
-          <section className="py-8">
-            <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   This project allowed me to push creative boundaries by
                   integrating storytelling with UI/UX design. By blending
                   interactivity, design, and engaging visuals, I successfully
@@ -430,10 +417,7 @@ const BoboChosesPage = () => {
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>
                 <h2 className="text-3xl md:text-4xl font-bold">Tickit App</h2>
               </div>
-              <a
-                href="/projects/tickit-app"
-                className="block relative w-full"
-              >
+              <a href="/projects/tickit-app" className="block relative w-full">
                 <Image
                   src="/thumbnails/header_thumbnail.jpg"
                   alt="Tickit App"

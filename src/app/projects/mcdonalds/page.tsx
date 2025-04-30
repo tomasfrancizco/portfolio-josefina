@@ -81,18 +81,12 @@ const McDonaldsPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Title */}
-          <section className="py-8">
-            <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold">
-                You Do You: Celebrating McDonald’s Rituals 🥤🍟
-              </h2>
-            </AnimatedElement>
-          </section>
-
           {/* Text Section */}
           <section className="py-8">
             <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                You Do You: Celebrating McDonald’s Rituals 🥤🍟
+              </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
                   Every McDonald&apos;s fan has a unique way of enjoying their
@@ -104,7 +98,7 @@ const McDonaldsPage = () => {
                 <h3 className="text-2xl md:text-3xl font-semibold mb-4">
                   Insight
                 </h3>
-                <p className="mb-4">
+                <p>
                   McDonald&apos;s isn&apos;t just food; it&apos;s a shared
                   experience, deeply personal yet universally loved. Whether
                   it&apos;s dipping fries in a McFlurry, ordering a Happy Meal
@@ -135,18 +129,12 @@ const McDonaldsPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Title */}
-          <section className="py-8">
-            <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold">
-                Instagram Stories
-              </h2>
-            </AnimatedElement>
-          </section>
-
           {/* Text Section */}
           <section className="py-8">
             <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Instagram Stories
+              </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
                   We leaned into an authentic, user-generated content (UGC)
@@ -158,7 +146,7 @@ const McDonaldsPage = () => {
                   embraced a raw, candid style that feels like it was captured
                   in the moment.
                 </p>
-                <p className="mb-4">
+                <p>
                   The UGC-inspired visuals weren’t just relatable—they were a
                   call to action. By mirroring the kind of content fans might
                   already share, we invited everyone to join in on the fun by
@@ -226,7 +214,7 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Push Notifications
@@ -267,7 +255,7 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">Takeaway</h2>
             </AnimatedElement>
@@ -277,7 +265,7 @@ const McDonaldsPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   With You Do You, we embraced individuality and transformed
                   quirky food habits into a cultural celebration, reminding
                   everyone that McDonald’s is here for whatever makes them
@@ -294,10 +282,7 @@ const McDonaldsPage = () => {
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>
                 <h2 className="text-3xl md:text-4xl font-bold">TNT</h2>
               </div>
-              <a
-                href="/projects/tnt"
-                className="block relative w-full"
-              >
+              <a href="/projects/tnt" className="block relative w-full">
                 <Image
                   src="/thumbnails/TNT-Thumbnail.jpg"
                   alt="TNT"
