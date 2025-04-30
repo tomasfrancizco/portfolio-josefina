@@ -46,15 +46,15 @@ const McDonaldsPage = () => {
                 Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">McDonald&apos;s</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2024</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">Art Director</p>
                 </div>
@@ -66,15 +66,16 @@ const McDonaldsPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(0)}
               >
                 <Image
                   src={projectImages["1"]}
                   alt="McDonald's App"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -119,15 +120,16 @@ const McDonaldsPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(1)}
               >
                 <Image
                   src={projectImages["2"]}
                   alt="McDonald's Design System"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -136,7 +138,7 @@ const McDonaldsPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Instagram Stories
               </h2>
             </AnimatedElement>
@@ -170,15 +172,16 @@ const McDonaldsPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(2)}
               >
                 <Image
                   src={projectImages["3"]}
                   alt="McDonald's User Generated Content"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -188,15 +191,16 @@ const McDonaldsPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(3)}
               >
                 <Image
                   src={projectImages["4"]}
                   alt="McDonald's App Interface"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -206,15 +210,16 @@ const McDonaldsPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(4)}
               >
                 <Image
                   src={projectImages["5"]}
                   alt="McDonald's App Features"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -223,7 +228,7 @@ const McDonaldsPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Push Notifications
               </h2>
             </AnimatedElement>
@@ -264,7 +269,7 @@ const McDonaldsPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Takeaway</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">Takeaway</h2>
             </AnimatedElement>
           </section>
 
@@ -291,13 +296,15 @@ const McDonaldsPage = () => {
               </div>
               <a
                 href="/projects/tnt"
-                className="block relative aspect-video w-full"
+                className="block relative w-full"
               >
                 <Image
                   src="/thumbnails/TNT-Thumbnail.jpg"
                   alt="TNT"
-                  fill
-                  className="object-cover rounded-lg transition-all duration-300 hover:opacity-90"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </a>
             </AnimatedElement>

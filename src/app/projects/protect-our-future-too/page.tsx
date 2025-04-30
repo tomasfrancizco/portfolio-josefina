@@ -49,15 +49,15 @@ const ProtectOurFutureTooPage = () => {
                 Branding, UI Design, Brand Guidelines
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">Merck</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2019 - 2021</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">Branding & UI Designer</p>
                 </div>
@@ -69,15 +69,16 @@ const ProtectOurFutureTooPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(0)}
               >
                 <Image
                   src={projectImages["1"]}
                   alt="Protect Our Future Too main image"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -101,15 +102,16 @@ const ProtectOurFutureTooPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(1)}
               >
                 <Image
                   src={projectImages["2"]}
                   alt="Protect Our Future Too logo"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -118,7 +120,7 @@ const ProtectOurFutureTooPage = () => {
           {/* Title */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Logo</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">Logo</h2>
             </AnimatedElement>
           </section>
 
@@ -148,15 +150,16 @@ const ProtectOurFutureTooPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(2)}
               >
                 <Image
                   src={projectImages["3"]}
                   alt="Protect Our Future Too color palette"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -172,9 +175,10 @@ const ProtectOurFutureTooPage = () => {
                 <Image
                   src={projectImages["4"]}
                   alt="Protect Our Future Too email campaigns"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -184,15 +188,16 @@ const ProtectOurFutureTooPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(4)}
               >
                 <Image
                   src={projectImages["5"]}
                   alt="Protect Our Future Too social media posts"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -202,15 +207,16 @@ const ProtectOurFutureTooPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(5)}
               >
                 <Image
                   src={projectImages["6"]}
                   alt="Protect Our Future Too social media campaign"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -230,7 +236,7 @@ const ProtectOurFutureTooPage = () => {
                     height={500}
                     width={500}
                     className="object-cover"
-                    objectFit="contain"
+                    // objectFit="contain"
                   />
                 </div>
                 <div 
@@ -240,9 +246,9 @@ const ProtectOurFutureTooPage = () => {
                   <Image
                     src="/projects/poft/OneHealth-flyer_Mockup.jpg"
                     alt="One Health flyer mockup"
-                    height="375"
-                    width="500"
-                    className="object-cover md:max-h-[299px]"
+                    height={500}
+                    width={500}
+                    className="object-cover"
                   />
                 </div>
               </div>
@@ -262,7 +268,7 @@ const ProtectOurFutureTooPage = () => {
                     alt="Hardcover book mockup presentation"
                     fill
                     className="object-cover"
-                    // objectFit="contain"
+                    
                   />
                 </div>
                 <div 
@@ -274,7 +280,7 @@ const ProtectOurFutureTooPage = () => {
                     alt="Desk calendar mockup"
                     fill
                     className="object-cover"
-                    // objectFit="contain"
+                    
                   />
                 </div>
               </div>
@@ -293,7 +299,6 @@ const ProtectOurFutureTooPage = () => {
                   height="450"
                   src="https://www.youtube.com/embed/LEcgpUKvQBQ?si=YqN6MIQm92qds-XC"
                   title="YouTube video player"
-                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
@@ -313,13 +318,15 @@ const ProtectOurFutureTooPage = () => {
               </div>
               <a
                 href="/projects/mcdonalds"
-                className="block relative aspect-video w-full"
+                className="block relative w-full"
               >
                 <Image
                   src="/thumbnails/Thumbnail.jpg"
                   alt="McDonald's"
-                  fill
-                  className="object-cover rounded-lg transition-all duration-300 hover:opacity-90"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </a>
             </AnimatedElement>

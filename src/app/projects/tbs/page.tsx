@@ -45,15 +45,15 @@ const TBSPage = () => {
                 UI Design, Brand Application
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">TBS Network</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2018</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">UI Designer</p>
                 </div>

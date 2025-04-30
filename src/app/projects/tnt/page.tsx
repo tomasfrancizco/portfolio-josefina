@@ -45,15 +45,15 @@ const TNTPage = () => {
                 Branding, Art Direction
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
                   <p className="text-xl font-medium">TNT</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
                   <p className="text-xl font-medium">2017 - 2018</p>
                 </div>
-                <div className="border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
                   <p className="text-xl font-medium">Designer & Art Director</p>
                 </div>
@@ -65,15 +65,16 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(0)}
               >
                 <Image
                   src={projectImages["1"]}
                   alt="TNT main image"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -95,15 +96,16 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(1)}
               >
                 <Image
                   src={projectImages["2"]}
                   alt="TNT brand identity"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -146,15 +148,16 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(2)}
               >
                 <Image
                   src={projectImages["3"]}
                   alt="TNT typography system"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -173,15 +176,16 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(3)}
               >
                 <Image
                   src={projectImages["4"]}
                   alt="TNT color palette"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -211,15 +215,16 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(4)}
               >
                 <Image
                   src={projectImages["5"]}
                   alt="TNT digital design"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -229,15 +234,16 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(5)}
               >
                 <Image
                   src={projectImages["6"]}
                   alt="TNT user interface"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -271,15 +277,16 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(6)}
               >
                 <Image
                   src={projectImages["7"]}
                   alt="TNT campaign materials"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -289,15 +296,16 @@ const TNTPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div
-                className="relative aspect-video w-full cursor-pointer"
+                className="w-full cursor-pointer"
                 onClick={() => openCarousel(7)}
               >
                 <Image
                   src={projectImages["8"]}
                   alt="TNT implementation examples"
-                  fill
-                  className="object-cover"
-                  objectFit="contain"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
             </AnimatedElement>
@@ -308,17 +316,19 @@ const TNTPage = () => {
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>
-                <h2 className="text-3xl md:text-4xl font-bold">Royal Canin</h2>
+                <h2 className="text-3xl md:text-4xl font-bold">Tiny Cottons</h2>
               </div>
               <a
-                href="/projects/royal-canin"
-                className="block relative aspect-video w-full"
+                href="/projects/tiny-cottons"
+                className="block relative w-full"
               >
                 <Image
-                  src="/thumbnails/RC_Thumbnail.jpg"
-                  alt="Royal Canin"
-                  fill
-                  className="object-cover rounded-lg transition-all duration-300 hover:opacity-90"
+                  src="/thumbnails/Tiny-Thumbnail.jpg"
+                  alt="Tiny Cottons"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
                 />
               </a>
             </AnimatedElement>
