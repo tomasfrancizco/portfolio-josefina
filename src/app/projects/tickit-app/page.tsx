@@ -85,7 +85,7 @@ const TickitAppPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   The aim of Tickit App was to create an easy-to-use and
                   intuitive mobile application that helps veterinarians identify
                   ticks from a photo. This app is intended to make it easier for
@@ -118,7 +118,7 @@ const TickitAppPage = () => {
           {/* Title and Text */}
           <section className="py-8">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Tickit. Logo
               </h2>
               <div className="prose prose-lg max-w-none">
@@ -222,7 +222,7 @@ const TickitAppPage = () => {
                     alt="Tickit App vet interface"
                     height={500}
                     width={500}
-                    className="object-cover max-h-[350px]"
+                    className="object-cover max-h-[286px]"
                   />
                 </div>
               </div>

@@ -88,7 +88,7 @@ const HenkelRAQNPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p className="">
                   <strong>
                     Brand identity for RAQN, Henkel&apos;s internal Digital
                     Business Platform

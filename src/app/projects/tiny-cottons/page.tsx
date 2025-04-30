@@ -82,14 +82,15 @@ const TinyCottonsPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   Tiny Cottons (and its sister brand, Tiny Big Sister) is a
                   playful and creative children&apos;s and women&apos;s brand
-                  that values quality, comfort, and style. The brand is known for
-                  its vibrant colors, unique patterns, and comfortable clothing
-                  made from the finest materials. As part of the interview
-                  process I had with them, I created a set of Instagram assets
-                  to promote the brand&apos;s latest products and collections.
+                  that values quality, comfort, and style. The brand is known
+                  for its vibrant colors, unique patterns, and comfortable
+                  clothing made from the finest materials. As part of the
+                  interview process I had with them, I created a set of
+                  Instagram assets to promote the brand&apos;s latest products
+                  and collections.
                 </p>
               </div>
             </AnimatedElement>
@@ -133,20 +134,14 @@ const TinyCottonsPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Title */}
-          <section className="py-8">
-            <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold">
-                The idea behind it
-              </h2>
-            </AnimatedElement>
-          </section>
-
           {/* Text Section */}
           <section className="py-8">
             <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                The idea behind it
+              </h2>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   The main objective of this project was to create a set of
                   Instagram assets that would showcase Tiny Cottons&apos; latest
                   products and summer collection in a visually appealing and

@@ -13,7 +13,7 @@ const projectImages = {
   "5": "/projects/poft/poft-SM-posts.jpg",
   "6": "/projects/poft/poft-SM-posts-2.jpg",
   "7": "/projects/poft/mockup.jpg",
-  "8": "/projects/poft/OneHealth-flyer_Mockup.jpg",  
+  "8": "/projects/poft/OneHealth-flyer_Mockup.jpg",
   "9": "/projects/poft/Hardcover-Book-Mockup-Presentation.jpg",
   "10": "/projects/poft/Desk-Calendar-Mockup-1.jpg",
 };
@@ -88,7 +88,7 @@ const ProtectOurFutureTooPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
+                <p>
                   Protect Our Future Too is an Awareness campaign for
                   veterinarians and pet owners (across 20+ countries) created
                   for MSD Animal Health (Merck) about how warmer and rising
@@ -117,16 +117,10 @@ const ProtectOurFutureTooPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Title */}
-          <section className="py-8">
-            <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold">Logo</h2>
-            </AnimatedElement>
-          </section>
-
           {/* Text Section */}
           <section className="py-8">
             <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Logo</h2>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
                   We wanted to make pets the voice of the campaign, so it could
@@ -136,7 +130,7 @@ const ProtectOurFutureTooPage = () => {
                   need to protect our future and take action to prevent the
                   spread of zoonotic diseases.
                 </p>
-                <p className="mb-4">
+                <p>
                   By including the hashtag in the logo, it could increase the
                   likelihood of it being shared across social media channels,
                   and users could easily recognize and associate the hashtag
@@ -223,10 +217,10 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Group 1: Two images in a row (md+) or column (sm) */}
-          <section>
+          <section className="pt-8">
             <AnimatedElement>
               <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-                <div 
+                <div
                   className="relative flex justify-center items-center w-full cursor-pointer md:col-span-5"
                   onClick={() => openCarousel(6)}
                 >
@@ -235,11 +229,10 @@ const ProtectOurFutureTooPage = () => {
                     alt="Protect Our Future Too mockup"
                     height={500}
                     width={500}
-                    className="object-cover"
-                    // objectFit="contain"
+                    className="object-cover max-h-[286px]"
                   />
                 </div>
-                <div 
+                <div
                   className="relative flex justify-center items-center w-full cursor-pointer md:col-span-7"
                   onClick={() => openCarousel(7)}
                 >
@@ -248,7 +241,7 @@ const ProtectOurFutureTooPage = () => {
                     alt="One Health flyer mockup"
                     height={500}
                     width={500}
-                    className="object-cover"
+                    className="object-cover max-h-[286px]"
                   />
                 </div>
               </div>
@@ -256,10 +249,10 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Group 2: Two images in a row (md+) or column (sm) */}
-          <section className="py-6">
+          <section className="pt-6 pb-8">
             <AnimatedElement>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div 
+                <div
                   className="relative aspect-video w-full cursor-pointer"
                   onClick={() => openCarousel(8)}
                 >
@@ -268,10 +261,9 @@ const ProtectOurFutureTooPage = () => {
                     alt="Hardcover book mockup presentation"
                     fill
                     className="object-cover"
-                    
                   />
                 </div>
-                <div 
+                <div
                   className="relative aspect-video w-full cursor-pointer"
                   onClick={() => openCarousel(9)}
                 >
@@ -280,7 +272,6 @@ const ProtectOurFutureTooPage = () => {
                     alt="Desk calendar mockup"
                     fill
                     className="object-cover"
-                    
                   />
                 </div>
               </div>
@@ -291,11 +282,11 @@ const ProtectOurFutureTooPage = () => {
           <section className="py-8">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold">
                   Campaign video
                 </h2>
                 <iframe
-                  className="w-full my-8"
+                  className="w-full py-8"
                   height="450"
                   src="https://www.youtube.com/embed/LEcgpUKvQBQ?si=YqN6MIQm92qds-XC"
                   title="YouTube video player"
@@ -316,10 +307,7 @@ const ProtectOurFutureTooPage = () => {
                   McDonald&apos;s
                 </h2>
               </div>
-              <a
-                href="/projects/mcdonalds"
-                className="block relative w-full"
-              >
+              <a href="/projects/mcdonalds" className="block relative w-full">
                 <Image
                   src="/thumbnails/Thumbnail.jpg"
                   alt="McDonald's"

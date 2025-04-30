@@ -91,7 +91,7 @@ const WeAreFamilyPage = () => {
                   pet. From simple day to day tips, to covering more serious
                   matters such as what to do in case of illnesses or infections.
                 </p>
-                <p className="mb-4">
+                <p>
                   Each campaign has its own look and feel based on how serious
                   the topic is.
                 </p>
@@ -100,7 +100,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Cat Pantry Campaign
@@ -138,7 +138,7 @@ const WeAreFamilyPage = () => {
                   which ones were friendly for your kitty&apos;s menu, and which
                   ones you should avoid completely.
                 </p>
-                <p className="mb-4">
+                <p>
                   The tool works both on desktop and mobile devices.
                 </p>
               </div>

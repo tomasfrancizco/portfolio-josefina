@@ -111,18 +111,12 @@ const TNTPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Title */}
-          <section className="py-8">
-            <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold">
-                Temporada de Premios
-              </h2>
-            </AnimatedElement>
-          </section>
-
           {/* Text Section */}
           <section className="py-8">
             <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Temporada de Premios
+              </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
                   First step was adapting the whole Temporada de Premios (Award
@@ -134,7 +128,7 @@ const TNTPage = () => {
                   needed to be adapted to tiny formats, so making them bigger
                   and legible was crucial.
                 </p>
-                <p className="mb-4">
+                <p>
                   We generated a whole brand guideline for Digital platforms
                   with all the dos and don’ts. Red was used for cinema and
                   series events, pink for fashion events, and green for music
@@ -164,7 +158,7 @@ const TNTPage = () => {
           </section>
 
           {/* Title */}
-          <section className="py-8">
+          <section className="pt-8">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Billboard Music Awards
@@ -200,7 +194,7 @@ const TNTPage = () => {
                   feel to comunicate the Billboard Music Award nominees in the
                   TNT Social Media channels.
                 </p>
-                <p className="mb-4">
+                <p>
                   Up until then, TNT had a really old school hollywood glamour
                   identity, and because the Billboard Awards’ main audience was
                   young people.. I was asked to move away from those guidelines
@@ -249,23 +243,19 @@ const TNTPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Title */}
-          <section className="py-8">
-            <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold">Emmy Awards</h2>
-            </AnimatedElement>
-          </section>
-
           {/* Text Section */}
           <section className="py-8">
             <AnimatedElement>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Emmy Awards
+              </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
                   As an Art Director and Illustrator, I worked on TNT&apos;s
                   Live Event campaign for Social Media and Digital Platforms,
                   presenting the nominees for Best Drama Series.
                 </p>
-                <p className="mb-4">
+                <p>
                   The idea was to make the audience guess which series were
                   nominated on that category.
                 </p>
