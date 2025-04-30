@@ -15,22 +15,6 @@ export function FullscreenImageCarousel({
   onClose: () => void;
   setCurrentIndex: (index: number) => void;
 }) {
-  const [scrollbarWidth, setScrollbarWidth] = useState(0);
-
-  // Calculate scrollbar width on mount
-  useEffect(() => {
-    const width = window.innerWidth - document.documentElement.clientWidth;
-    console.log({ width });
-    console.log({ scrollbarWidth });
-    console.log({ "window.innerWidth": window.innerWidth });
-    console.log({
-      "document.documentElement.clientWidth":
-        document.documentElement.clientWidth,
-    });
-    setScrollbarWidth(width);
-    console.log({ scrollbarWidth });
-  }, []);
-
   // Handle keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
