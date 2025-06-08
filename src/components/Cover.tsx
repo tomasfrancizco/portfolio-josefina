@@ -23,20 +23,22 @@ export default function Cover() {
           {/* Title with animation */}
           <AnimatedElement className="mb-6 max-w-5xl text-left">
             <h1 className="text-2xl leading-tight text-gray-900 md:text-3xl lg:text-4xl">
-              I&apos;m Josefina, a Senior Visual Designer based in Barcelona,
-              bridging the gap between Branding and Product Design
+              I&apos;m Josefina, a Visual and Product Designer, based in
+              Barcelona
             </h1>
           </AnimatedElement>
 
           {/* Subtitle with animation - delayed slightly */}
           <AnimatedElement className="max-w-5xl text-left" delay={300}>
             <p className="text-lg leading-relaxed text-gray-700">
-              I&apos;m a Graphic Designer graduated from the University of Buenos Aires,
-              specialized in Visual Design and UX/UI. Experienced in creating
-              identity systems, branding, and content for both print and digital
-              platforms. Proficient in prototyping, interaction design, and
-              tools such as Figma and Adobe Creative Suite. Knowledge of HTML5
-              and CSS for implementing and optimizing digital experiences.
+              I&apos;m a Visual and Product Designer with 7+ years of experience
+              crafting brand-aligned digital solutions for leading global brands
+              including Henkel, Merck, and TNT (Warner Media). Trained in UX/UI
+              through Memorisely&apos;s Bootcamps, with a passion for intuitive
+              interfaces, user research, and accessible design. Highly skilled
+              in Figma, Adobe Creative Suite, and knowledge on HTML/CSS. I thrive
+              at the intersection of creative direction and user-centered design
+              to bring seamless, beautiful digital products to life.
             </p>
           </AnimatedElement>
         </div>
