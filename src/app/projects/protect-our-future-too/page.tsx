@@ -64,6 +64,8 @@ const ProtectOurFutureTooPage = () => {
               </div>
             </AnimatedElement>
           </section>
+        </div>
+        <div className="max-w-[1000px] w-full px-4 md:px-6">
 
           {/* First Image */}
           <section className="py-8">
@@ -85,7 +87,7 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p>
@@ -118,7 +120,7 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Logo</h2>
               <div className="prose prose-lg max-w-none">
@@ -141,7 +143,7 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Third Image */}
-          <section className="py-8">
+          <section className="pt-8 pb-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -160,7 +162,7 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Fourth Image */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="relative aspect-video w-full cursor-pointer"
@@ -179,7 +181,7 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Fifth Image */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -198,7 +200,7 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Sixth Image */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -217,9 +219,9 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Group 1: Two images in a row (md+) or column (sm) */}
-          <section className="pt-8">
+          <section className="py-2">
             <AnimatedElement>
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
                 <div
                   className="relative flex justify-center items-center w-full cursor-pointer md:col-span-5"
                   onClick={() => openCarousel(6)}
@@ -229,7 +231,7 @@ const ProtectOurFutureTooPage = () => {
                     alt="Protect Our Future Too mockup"
                     height={500}
                     width={500}
-                    className="object-cover max-h-[286px]"
+                    className="w-full object-cover md:h-[387px]"
                   />
                 </div>
                 <div
@@ -241,7 +243,7 @@ const ProtectOurFutureTooPage = () => {
                     alt="One Health flyer mockup"
                     height={500}
                     width={500}
-                    className="object-cover max-h-[286px]"
+                    className="w-full object-cover md:h-[387px]"
                   />
                 </div>
               </div>
@@ -249,29 +251,31 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Group 2: Two images in a row (md+) or column (sm) */}
-          <section className="pt-6 pb-8">
+          <section className="pt-2 pb-8">
             <AnimatedElement>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div
-                  className="relative aspect-video w-full cursor-pointer"
+                  className="relative w-full cursor-pointer"
                   onClick={() => openCarousel(8)}
                 >
                   <Image
                     src="/projects/poft/Hardcover-Book-Mockup-Presentation.jpg"
                     alt="Hardcover book mockup presentation"
-                    fill
-                    className="object-cover"
+                    height={500}
+                    width={500}
+                    className="w-full object-cover md:h-[351px]"
                   />
                 </div>
                 <div
-                  className="relative aspect-video w-full cursor-pointer"
+                  className="relative w-full cursor-pointer"
                   onClick={() => openCarousel(9)}
                 >
                   <Image
                     src="/projects/poft/Desk-Calendar-Mockup-1.jpg"
                     alt="Desk calendar mockup"
-                    fill
-                    className="object-cover"
+                    height={500}
+                    width={500}
+                    className="w-full object-cover md:h-[351px]"
                   />
                 </div>
               </div>
@@ -279,7 +283,7 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Video Link Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <h2 className="text-3xl md:text-4xl font-bold">
@@ -299,7 +303,7 @@ const ProtectOurFutureTooPage = () => {
           </section>
 
           {/* Next Project Section */}
-          <section className="py-16">
+          <section className="py-16 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>

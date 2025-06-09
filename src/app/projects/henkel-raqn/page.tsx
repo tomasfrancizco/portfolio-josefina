@@ -64,7 +64,9 @@ const HenkelRAQNPage = () => {
               </div>
             </AnimatedElement>
           </section>
+        </div>
 
+        <div className="max-w-[1000px] w-full px-4 md:px-6">
           {/* First Image */}
           <section className="py-8">
             <AnimatedElement>
@@ -85,7 +87,7 @@ const HenkelRAQNPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p className="">
@@ -104,7 +106,7 @@ const HenkelRAQNPage = () => {
           </section>
 
           {/* Full-width Image */}
-          <section className="py-8">
+          <section className="pt-8 pb-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -122,7 +124,7 @@ const HenkelRAQNPage = () => {
             </AnimatedElement>
           </section>
 
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -140,7 +142,7 @@ const HenkelRAQNPage = () => {
             </AnimatedElement>
           </section>
 
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -158,7 +160,7 @@ const HenkelRAQNPage = () => {
             </AnimatedElement>
           </section>
 
-          <section className="py-8">
+          <section className="pt-2 pb-8">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -177,7 +179,7 @@ const HenkelRAQNPage = () => {
           </section>
 
           {/* Subtitle 1 */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">UI Design</h2>
               <div className="prose prose-lg max-w-none">
@@ -211,7 +213,7 @@ const HenkelRAQNPage = () => {
           </section>
 
           {/* Subtitle */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Engagement Assets
@@ -248,7 +250,16 @@ const HenkelRAQNPage = () => {
                   onClick={() => openCarousel(6)}
                   style={{ backgroundColor: "#f8f8f8" }}
                 >
-                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: "-3px", overflow: "hidden" }}>
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: "-3px",
+                      overflow: "hidden",
+                    }}
+                  >
                     <Image
                       src={projectImages["7"]}
                       alt="Henkel RAQN results"
@@ -263,7 +274,16 @@ const HenkelRAQNPage = () => {
                   onClick={() => openCarousel(7)}
                   style={{ backgroundColor: "#f8f8f8" }}
                 >
-                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: "-3px", overflow: "hidden" }}>
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: "-3px",
+                      overflow: "hidden",
+                    }}
+                  >
                     <Image
                       src={projectImages["8"]}
                       alt="Henkel RAQN results"
@@ -278,7 +298,16 @@ const HenkelRAQNPage = () => {
                   onClick={() => openCarousel(8)}
                   style={{ backgroundColor: "#f8f8f8" }}
                 >
-                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: "-3px", overflow: "hidden" }}>
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: "-3px",
+                      overflow: "hidden",
+                    }}
+                  >
                     <Image
                       src={projectImages["9"]}
                       alt="Henkel RAQN results"
@@ -293,7 +322,16 @@ const HenkelRAQNPage = () => {
                   onClick={() => openCarousel(9)}
                   style={{ backgroundColor: "#f8f8f8" }}
                 >
-                  <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: "-3px", overflow: "hidden" }}>
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: "-3px",
+                      overflow: "hidden",
+                    }}
+                  >
                     <Image
                       src={projectImages["10"]}
                       alt="Henkel RAQN results"
@@ -308,7 +346,7 @@ const HenkelRAQNPage = () => {
           </section>
 
           {/* Next Project Section */}
-          <section className="py-16">
+          <section className="py-16 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>

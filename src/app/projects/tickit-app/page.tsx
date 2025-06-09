@@ -61,7 +61,8 @@ const TickitAppPage = () => {
               </div>
             </AnimatedElement>
           </section>
-
+        </div>
+        <div className="max-w-[1000px] w-full px-4 md:px-6">
           {/* First Image */}
           <section className="py-8">
             <AnimatedElement>
@@ -82,7 +83,7 @@ const TickitAppPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p>
@@ -116,7 +117,7 @@ const TickitAppPage = () => {
           </section>
 
           {/* Title and Text */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Tickit. Logo
@@ -141,7 +142,7 @@ const TickitAppPage = () => {
           </section>
 
           {/* Third Image */}
-          <section className="py-8">
+          <section className="pt-8 pb-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -160,7 +161,7 @@ const TickitAppPage = () => {
           </section>
 
           {/* Fourth Image */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -179,7 +180,7 @@ const TickitAppPage = () => {
           </section>
 
           {/* Fifth Image */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -198,9 +199,9 @@ const TickitAppPage = () => {
           </section>
 
           {/* Two Images in Row (on medium+) */}
-          <section className="py-8">
+          <section className="pt-2 pb-8">
             <AnimatedElement>
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
                 <div 
                   className="relative flex justify-center items-center w-full cursor-pointer md:col-span-5"
                   onClick={() => openCarousel(5)}
@@ -210,7 +211,7 @@ const TickitAppPage = () => {
                     alt="Tickit App mobile mockups"
                     height={500}
                     width={500}
-                    className="object-cover max-h-[286px]"
+                    className="w-full object-cover md:h-[366px]"
                   />
                 </div>
                 <div 
@@ -222,7 +223,7 @@ const TickitAppPage = () => {
                     alt="Tickit App vet interface"
                     height={500}
                     width={500}
-                    className="object-cover max-h-[286px]"
+                    className="w-full object-cover md:h-[366px]"
                   />
                 </div>
               </div>
@@ -230,7 +231,7 @@ const TickitAppPage = () => {
           </section>
 
           {/* Next Project Section */}
-          <section className="py-16">
+          <section className="py-16 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>

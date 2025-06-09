@@ -60,6 +60,8 @@ const TBSPage = () => {
               </div>
             </AnimatedElement>
           </section>
+        </div>
+        <div className="max-w-[1000px] w-full px-4 md:px-6">
 
           {/* First Image */}
           <section className="py-8">
@@ -80,7 +82,7 @@ const TBSPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p>
@@ -93,7 +95,7 @@ const TBSPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Graphic Elements:
@@ -134,7 +136,7 @@ const TBSPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pb-8">
+          <section className="pb-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Identifying the goals of the website redesign:
@@ -143,7 +145,7 @@ const TBSPage = () => {
           </section>
 
           {/* Text with Ordered List */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <ol className="list-decimal pl-5 mb-4">
@@ -254,7 +256,7 @@ const TBSPage = () => {
           </section>
 
           {/* Next Project Section */}
-          <section className="py-16">
+          <section className="py-16 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>

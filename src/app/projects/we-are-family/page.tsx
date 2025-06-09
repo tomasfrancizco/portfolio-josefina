@@ -62,6 +62,8 @@ const WeAreFamilyPage = () => {
               </div>
             </AnimatedElement>
           </section>
+        </div>
+        <div className="max-w-[1000px] w-full px-4 md:px-6">
 
           {/* First Image */}
           <section className="py-8">
@@ -83,7 +85,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
@@ -100,7 +102,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Cat Pantry Campaign
@@ -128,7 +130,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
@@ -146,7 +148,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Fourth Image */}
-          <section className="py-8">
+          <section className="pt-8 pb-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -165,7 +167,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Third Image */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -184,7 +186,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Fifth Image */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -203,7 +205,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Sixth Image */}
-          <section className="py-8">
+          <section className="pt-2 pb-8">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -222,7 +224,7 @@ const WeAreFamilyPage = () => {
           </section>
 
           {/* Next Project Section */}
-          <section className="py-16">
+          <section className="py-16 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>

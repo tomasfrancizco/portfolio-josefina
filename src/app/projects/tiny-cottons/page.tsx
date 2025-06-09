@@ -58,6 +58,8 @@ const TinyCottonsPage = () => {
               </div>
             </AnimatedElement>
           </section>
+        </div>
+        <div className="max-w-[1000px] w-full px-4 md:px-6">
 
           {/* First Image */}
           <section className="py-8">
@@ -79,7 +81,7 @@ const TinyCottonsPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p>
@@ -97,7 +99,7 @@ const TinyCottonsPage = () => {
           </section>
 
           {/* Second Image */}
-          <section className="py-8">
+          <section className="pt-8 pb-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -116,7 +118,7 @@ const TinyCottonsPage = () => {
           </section>
 
           {/* Third Image */}
-          <section className="py-8">
+          <section className="pt-2 pb-8">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -135,7 +137,7 @@ const TinyCottonsPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 The idea behind it
@@ -173,7 +175,7 @@ const TinyCottonsPage = () => {
           </section>
 
           {/* Next Project Section */}
-          <section className="py-16">
+          <section className="py-16 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>
