@@ -61,6 +61,8 @@ const McDonaldsPage = () => {
               </div>
             </AnimatedElement>
           </section>
+        </div>
+        <div className="max-w-[1000px] w-full px-4 md:px-6">
 
           {/* First Image */}
           <section className="py-8">
@@ -82,10 +84,10 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                You Do You: Celebrating McDonald’s Rituals 🥤🍟
+                You Do You: Celebrating McDonald&apos;s Rituals
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="mb-4">
@@ -130,7 +132,7 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Instagram Stories
@@ -147,17 +149,17 @@ const McDonaldsPage = () => {
                   in the moment.
                 </p>
                 <p>
-                  The UGC-inspired visuals weren’t just relatable—they were a
+                  The UGC-inspired visuals weren&apos;t just relatable—they were a
                   call to action. By mirroring the kind of content fans might
                   already share, we invited everyone to join in on the fun by
-                  posting their own McDonald’s rituals.
+                  posting their own McDonald&apos;s rituals.
                 </p>
               </div>
             </AnimatedElement>
           </section>
 
           {/* Third Image */}
-          <section className="py-8">
+          <section className="pt-8 pb-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -176,7 +178,7 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Fourth Image */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -195,7 +197,7 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Fifth Image */}
-          <section className="py-8">
+          <section className="pt-2 pb-8">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -214,7 +216,7 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Push Notifications
@@ -255,14 +257,14 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">Takeaway</h2>
             </AnimatedElement>
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p>
@@ -276,7 +278,7 @@ const McDonaldsPage = () => {
           </section>
 
           {/* Next Project Section */}
-          <section className="py-16">
+          <section className="py-16 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>

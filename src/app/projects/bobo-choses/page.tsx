@@ -62,6 +62,8 @@ const BoboChosesPage = () => {
             </AnimatedElement>
           </section>
 
+          </div>
+          <div className="max-w-[1000px] w-full px-4 md:px-6">
           {/* First Image */}
           <section className="py-8">
             <AnimatedElement>
@@ -82,7 +84,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p>
@@ -116,7 +118,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Two Title and Text blocks in row on md+ */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="flex flex-col gap-8">
                 <div className="w-full">
@@ -125,7 +127,7 @@ const BoboChosesPage = () => {
                   </h2>
                   <p className="text-gray-700">
                     My goal was to create an engaging, imaginative digital
-                    experience that aligns with Bobo Choses’ playful and
+                    experience that aligns with Bobo Choses&apos; playful and
                     artistic brand identity.
                     <br />
                     <br />
@@ -142,7 +144,7 @@ const BoboChosesPage = () => {
                     <li>
                       <strong>Opening Curtain Effect:</strong> The first block
                       of the page features an interactive hover effect where a
-                      curtain opens, revealing the campaign’s core message.
+                      curtain opens, revealing the campaign&apos;s core message.
                     </li>
                     <br />
                     <li>
@@ -155,7 +157,7 @@ const BoboChosesPage = () => {
                     <li>
                       <strong>Campaign Video Integration:</strong> The
                       experience seamlessly leads to an embedded campaign video,
-                      allowing visitors to connect visually with the brand’s
+                      allowing visitors to connect visually with the brand&apos;s
                       message.
                     </li>
                     <br />
@@ -169,7 +171,7 @@ const BoboChosesPage = () => {
                       <strong>Call to Actions & Footer:</strong> The page
                       concludes with clear CTAs encouraging further exploration,
                       followed by a footer incorporating playful elements that
-                      tie back to the campaign’s theme.
+                      tie back to the campaign&apos;s theme.
                     </li>
                   </ul>
                 </div>
@@ -178,7 +180,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Desktop Version
@@ -206,7 +208,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">Mobile Version</h2>
             </AnimatedElement>
@@ -231,7 +233,7 @@ const BoboChosesPage = () => {
             </AnimatedElement>
           </section>
 
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Interactive LP Prototype
@@ -252,7 +254,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">Newsletter</h2>
             </AnimatedElement>
@@ -278,7 +280,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Two Title and Text blocks in row on md+ */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="flex flex-col gap-8">
                 <div className="w-full">
@@ -339,7 +341,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">
                 Desktop Version
@@ -367,7 +369,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Title */}
-          <section className="pt-8">
+          <section className="pt-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold">Mobile Version</h2>
             </AnimatedElement>
@@ -393,7 +395,7 @@ const BoboChosesPage = () => {
           </section>
 
           {/* Text Section */}
-          <section className="py-8">
+          <section className="py-8 max-w-[800px] mx-auto">
             <AnimatedElement>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Outcome & Reflections
@@ -404,14 +406,15 @@ const BoboChosesPage = () => {
                   integrating storytelling with UI/UX design. By blending
                   interactivity, design, and engaging visuals, I successfully
                   translated Up is Down into an immersive digital experience
-                  that aligns with Bobo Choses’ playful and artistic vision.
+                  that aligns with Bobo Choses&apos; playful and artistic
+                  vision.
                 </p>
               </div>
             </AnimatedElement>
           </section>
 
           {/* Next Project Section */}
-          <section className="py-16">
+          <section className="py-16 max-w-[800px] mx-auto">
             <AnimatedElement>
               <div className="text-center mb-10">
                 <p className="text-lg text-gray-600 mb-2">Next Project</p>
