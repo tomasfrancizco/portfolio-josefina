@@ -50,16 +50,16 @@ const HenkelRAQNPage = () => {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
-                  <p className="text-xs font-medium">Henkel</p>
+                  <p className="text-sm font-medium">Henkel</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xs font-medium">2024</p>
+                  <p className="text-sm font-medium">2024</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xs font-medium">
-                    Lead Designer · Design Systems & UI
+                  <p className="text-sm font-medium">
+                    Lead Designer · Design Systems
                   </p>
                 </div>
               </div>
