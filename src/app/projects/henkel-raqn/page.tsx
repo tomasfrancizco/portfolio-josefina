@@ -236,6 +236,7 @@ const HenkelRAQNPage = () => {
                       alt="Henkel RAQN button video"
                       width={1920}
                       height={1080}
+                      unoptimized
                       className="w-full h-auto"
                       priority
                     />
