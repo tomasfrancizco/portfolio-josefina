@@ -44,18 +44,18 @@ const TNTPage = () => {
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
                 Branding, Art Direction
               </p>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
-                  <p className="text-xl font-medium">TNT</p>
+                  <p className="text-sm font-medium">TNT</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2017 - 2018</p>
+                  <p className="text-sm font-medium">2017 - 2018</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">Designer & Art Director</p>
+                  <p className="text-sm font-medium">Designer & Art Director</p>
                 </div>
               </div>
             </AnimatedElement>

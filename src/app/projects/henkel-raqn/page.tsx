@@ -7,15 +7,14 @@ import { FullscreenImageCarousel } from "@/components/ImageCarousel";
 
 const projectImages = {
   "1": "/projects/henkel-raqn/RAQN-Thumbnail.jpg",
-  "2": "/projects/henkel-raqn/RAQN_Identity-System.jpg",
-  "3": "/projects/henkel-raqn/RAQN_Design-System.jpg",
-  "4": "/projects/henkel-raqn/RAQN_Icons.jpg",
-  "5": "/projects/henkel-raqn/RAQN_Cards.jpg",
-  "6": "/projects/henkel-raqn/RAQN_Website.jpg",
-  "7": "/projects/henkel-raqn/Channel-Your-Inner-RAQN-1.gif",
-  "8": "/projects/henkel-raqn/Keep-it-simple.gif",
-  "9": "/projects/henkel-raqn/Lets-talk.gif",
-  "10": "/projects/henkel-raqn/Call-RAQN.gif",
+  "2": "/projects/henkel-raqn/01-RAQN_UI-kit.jpg",
+  "3": "/projects/henkel-raqn/02-RAQN_Website_desktop.jpg",
+  "4": "/projects/henkel-raqn/03-RAQN_Website_mobile.jpg",
+  "5": "/projects/henkel-raqn/04-Button-video.gif",
+  "6": "/projects/henkel-raqn/05-RAQN_Colors.jpg",
+  "7": "/projects/henkel-raqn/06-RAQN_Typography.jpg",
+  "8": "/projects/henkel-raqn/07-RAQN_Buttons.jpg",
+  "9": "/projects/henkel-raqn/08-RAQN_Ready-for-Dev.png",
 };
 
 // Convert project images to an array format for the carousel
@@ -48,18 +47,20 @@ const HenkelRAQNPage = () => {
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
                 UI Design, Design System, Branding, Art Direction
               </p>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
-                  <p className="text-xl font-medium">Henkel</p>
+                  <p className="text-sm font-medium">Henkel</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2024</p>
+                  <p className="text-sm font-medium">2024</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">Lead Designer</p>
+                  <p className="text-sm font-medium">
+                    Lead Designer · Design Systems
+                  </p>
                 </div>
               </div>
             </AnimatedElement>
@@ -91,22 +92,24 @@ const HenkelRAQNPage = () => {
             <AnimatedElement>
               <div className="prose prose-lg max-w-none">
                 <p className="">
-                  <strong>
-                    Brand identity for RAQN, Henkel&apos;s internal Digital
-                    Business Platform
-                  </strong>
+                  RAQN is Henkel&apos;s internal marketing platform — a
+                  centralized space for teams to access tools, tutorials, and
+                  resources. When I joined the project, the name and a logo
+                  already existed. My job? Turn that into a bold, scalable, and
+                  memorable user experience that could serve teams across the
+                  company.
                   <br />
-                  <br /> This platform serves as a central hub where employees
-                  can access various marketing materials. To create a memorable
-                  and engaging brand, we focused on the platform&apos;s name,
-                  RAQN, which is also represented by a raccoon mascot.
+                  <br />I led the visual design and design system strategy,
+                  working from a minimal starting point (logo + color palette)
+                  to a fully functional, accessible, and visually rich
+                  interface.
                 </p>
               </div>
             </AnimatedElement>
           </section>
 
           {/* Full-width Image */}
-          <section className="pt-8 pb-2">
+          <section className="py-8">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -114,7 +117,7 @@ const HenkelRAQNPage = () => {
               >
                 <Image
                   src={projectImages["2"]}
-                  alt="Henkel RAQN branding showcase"
+                  alt="Henkel RAQN UI kit"
                   width={1920}
                   height={1080}
                   className="w-full h-auto"
@@ -124,7 +127,47 @@ const HenkelRAQNPage = () => {
             </AnimatedElement>
           </section>
 
-          <section className="py-2">
+          {/* Text Section */}
+          <section className="py-8 max-w-[800px] mx-auto">
+            <AnimatedElement>
+              <div className="prose prose-lg max-w-none">
+                <p className="">
+                  To kick things off, I expanded RAQN&apos;s visual language
+                  into a full <strong>UI brand system</strong> — defining typography, spacing,
+                  gradients, dark mode styles, and a fresh component kit to
+                  bring the platform to life.
+                  <br />
+                  <br />
+                  <span className="font-bold">I designed:</span>
+                </p>
+                <ul className="list-disc list-inside pl-4 mt-4">
+                  <li>
+                    A flexible <strong>design system in Figma</strong> with token-based styles
+                    and responsive layouts
+                  </li>
+                  <li>
+                    An accessible <strong>semantic color system</strong> (including success,
+                    warning, and error states)
+                  </li>
+                  <li>
+                    A full suite of <strong>core components</strong> like buttons, cards, modals,
+                    and interactive tags
+                  </li>
+                  <li>
+                    Onboarding flows and support pages to help new users get
+                    started smoothly
+                  </li>
+                </ul>
+                <p className="mt-4">
+                  The interface balances clarity with a sense of play,
+                  reflecting the energy of the RAQN name and the creative
+                  culture behind it.
+                </p>
+              </div>
+            </AnimatedElement>
+          </section>
+
+          <section className="pt-8 pb-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -132,25 +175,7 @@ const HenkelRAQNPage = () => {
               >
                 <Image
                   src={projectImages["3"]}
-                  alt="Henkel RAQN design"
-                  width={1920}
-                  height={1080}
-                  className="w-full h-auto"
-                  priority
-                />
-              </div>
-            </AnimatedElement>
-          </section>
-
-          <section className="py-2">
-            <AnimatedElement>
-              <div
-                className="w-full cursor-pointer"
-                onClick={() => openCarousel(3)}
-              >
-                <Image
-                  src={projectImages["4"]}
-                  alt="Henkel RAQN design"
+                  alt="Henkel RAQN website desktop"
                   width={1920}
                   height={1080}
                   className="w-full h-auto"
@@ -164,11 +189,11 @@ const HenkelRAQNPage = () => {
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
-                onClick={() => openCarousel(4)}
+                onClick={() => openCarousel(3)}
               >
                 <Image
-                  src={projectImages["5"]}
-                  alt="Henkel RAQN design"
+                  src={projectImages["4"]}
+                  alt="Henkel RAQN website mobile"
                   width={1920}
                   height={1080}
                   className="w-full h-auto"
@@ -178,23 +203,50 @@ const HenkelRAQNPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Subtitle 1 */}
-          <section className="py-8 max-w-[800px] mx-auto">
+          <section className="py-8 max-w-[1000px] mx-auto">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">UI Design</h2>
-              <div className="prose prose-lg max-w-none">
-                <h2 className="text-2xl font-bold mb-4">RAQN Website</h2>
-                <p>
-                  The design guided users through RAQN&apos;s functionalities,
-                  highlighting its value and benefits, and reinforcing its
-                  importance for Henkel&apos;s marketing team.
-                </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+                {/* Left Column - Text */}
+                <div className="order-1">
+                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                    Microinteractions with Purpose
+                  </h2>
+                  <div className="prose prose-lg max-w-none">
+                    <p>
+                      To make key actions more engaging, I added subtle
+                      microinteractions to RAQN&apos;s primary button —
+                      including a shifting gradient and soft glow on hover.
+                      Beyond aesthetics, this interaction proved effective: KPIs
+                      showed increased engagement and a higher click-through
+                      rate after launch.
+                      <br />
+                      <br />A small detail with a big impact.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Right Column - Video */}
+                <div className="order-2">
+                  <div
+                    className="w-full cursor-pointer"
+                    onClick={() => openCarousel(4)}
+                  >
+                    <Image
+                      src={projectImages["5"]}
+                      alt="Henkel RAQN button video"
+                      width={1920}
+                      height={1080}
+                      unoptimized
+                      className="w-full h-auto"
+                      priority
+                    />
+                  </div>
+                </div>
               </div>
             </AnimatedElement>
           </section>
 
-          {/* Full-width Image */}
-          <section className="py-8">
+          <section className="pt-8 pb-2">
             <AnimatedElement>
               <div
                 className="w-full cursor-pointer"
@@ -202,7 +254,7 @@ const HenkelRAQNPage = () => {
               >
                 <Image
                   src={projectImages["6"]}
-                  alt="Henkel RAQN interface showcase"
+                  alt="Henkel RAQN colors"
                   width={1920}
                   height={1080}
                   className="w-full h-auto"
@@ -212,135 +264,76 @@ const HenkelRAQNPage = () => {
             </AnimatedElement>
           </section>
 
-          {/* Subtitle */}
-          <section className="py-8 max-w-[800px] mx-auto">
+          <section className="py-2">
             <AnimatedElement>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Engagement Assets
-              </h2>
-              <div className="prose prose-lg max-w-none">
-                <p>
-                  To boost engagement with the RAQN platform among Henkel
-                  employees, we developed a series of fun and creative assets.
-                  This included GIFs for Microsoft Teams, which added a playful
-                  element to daily interactions.
-                </p>
-                <br />
-                <p>
-                  We also designed merchandise like stickers featuring witty
-                  phrases such as &quot;marketer by day, ninja by night&quot;,
-                  along with branded hoodies and water bottles.
-                </p>
-                <br />
-                <p>
-                  These items not only promoted the RAQN identity but also
-                  fostered a sense of community and pride within the marketing
-                  team.
-                </p>
+              <div
+                className="w-full cursor-pointer"
+                onClick={() => openCarousel(6)}
+              >
+                <Image
+                  src={projectImages["7"]}
+                  alt="Henkel RAQN typography"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
+                />
               </div>
             </AnimatedElement>
           </section>
 
-          {/* 4 Images in Grid (2x2 on medium+) */}
-          <section className="py-8">
+          <section className="py-2">
             <AnimatedElement>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div
-                  className="relative aspect-square cursor-pointer overflow-hidden rounded-lg"
-                  onClick={() => openCarousel(6)}
-                  style={{ backgroundColor: "#f8f8f8" }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      right: 0,
-                      bottom: "-3px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    <Image
-                      src={projectImages["7"]}
-                      alt="Henkel RAQN results"
-                      fill
-                      className="object-cover"
-                      unoptimized
-                    />
-                  </div>
-                </div>
-                <div
-                  className="relative aspect-square cursor-pointer overflow-hidden rounded-lg"
-                  onClick={() => openCarousel(7)}
-                  style={{ backgroundColor: "#f8f8f8" }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      right: 0,
-                      bottom: "-3px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    <Image
-                      src={projectImages["8"]}
-                      alt="Henkel RAQN results"
-                      fill
-                      className="object-cover"
-                      unoptimized
-                    />
-                  </div>
-                </div>
-                <div
-                  className="relative aspect-square cursor-pointer overflow-hidden rounded-lg"
-                  onClick={() => openCarousel(8)}
-                  style={{ backgroundColor: "#f8f8f8" }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      right: 0,
-                      bottom: "-3px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    <Image
-                      src={projectImages["9"]}
-                      alt="Henkel RAQN results"
-                      fill
-                      className="object-cover"
-                      unoptimized
-                    />
-                  </div>
-                </div>
-                <div
-                  className="relative aspect-square cursor-pointer overflow-hidden rounded-lg"
-                  onClick={() => openCarousel(9)}
-                  style={{ backgroundColor: "#f8f8f8" }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      right: 0,
-                      bottom: "-3px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    <Image
-                      src={projectImages["10"]}
-                      alt="Henkel RAQN results"
-                      fill
-                      className="object-cover"
-                      unoptimized
-                    />
-                  </div>
-                </div>
+              <div
+                className="w-full cursor-pointer"
+                onClick={() => openCarousel(7)}
+              >
+                <Image
+                  src={projectImages["8"]}
+                  alt="Henkel RAQN buttons"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
+            </AnimatedElement>
+          </section>
+
+          <section className="pt-2 pb-8">
+            <AnimatedElement>
+              <div
+                className="w-full cursor-pointer"
+                onClick={() => openCarousel(8)}
+              >
+                <Image
+                  src={projectImages["9"]}
+                  alt="Henkel RAQN ready for dev"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
+            </AnimatedElement>
+          </section>
+
+          {/* Text Section */}
+          <section className="py-8 max-w-[800px] mx-auto">
+            <AnimatedElement>
+              <div className="prose prose-lg max-w-none">
+                <p className="">
+                  RAQN now has a robust design foundation — one that looks
+                  cohesive, adapts across screen sizes, and feels easy and
+                  approachable for teams using it every day.
+                  <br />
+                  <br />
+                  This project was a perfect blend of <strong>visual design, design
+                  systems thinking, and product storytelling</strong>. It pushed me to
+                  think at scale, design with intention, and create a system
+                  that doesn&apos;t just look good — it works hard behind the
+                  scenes, too.
+                </p>
               </div>
             </AnimatedElement>
           </section>

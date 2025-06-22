@@ -7,12 +7,12 @@ import { FullscreenImageCarousel } from "@/components/ImageCarousel";
 
 const projectImages = {
   "1": "/projects/bobo-choses/Thumbnail---Bobo-Choses.jpg",
-  "2": "/projects/bobo-choses/Bobo-Choses-01.jpg",
-  "3": "/projects/bobo-choses/Bobo-Choses-02.jpg",
-  "4": "/projects/bobo-choses/Bobo-Choses-03.jpg",
-  "5": "/projects/bobo-choses/Bobo-Choses-04.jpg",
-  "6": "/projects/bobo-choses/Bobo-Choses-05.jpg",
-  "7": "/projects/bobo-choses/Bobo-Choses-06.jpg",
+  "2": "/projects/bobo-choses/02-Bobo-Choses_LP-Wireframe.jpg",
+  "3": "/projects/bobo-choses/03-Bobo Choses_LP.jpg",
+  "4": "/projects/bobo-choses/04-Bobo Choses_LP-mobile.jpg",
+  "5": "/projects/bobo-choses/05-Bobo-Choses_Newsletter-Wireframe.jpg",
+  "6": "/projects/bobo-choses/06-Bobo Choses_Newsletter-desktop.jpg",
+  "7": "/projects/bobo-choses/07-Bobo Choses_Newsletter-mobile.jpg",
 };
 
 // Convert project images to an array format for the carousel
@@ -45,18 +45,18 @@ const BoboChosesPage = () => {
               <p className="text-xl md:text-2xl text-gray-600 mb-8">
                 UI Design, Art Direction, Creative Direction
               </p>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Client</p>
-                  <p className="text-xl font-medium">Bobo Choses</p>
+                  <p className="text-sm font-medium">Bobo Choses</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Year</p>
-                  <p className="text-xl font-medium">2025</p>
+                  <p className="text-sm font-medium">2025</p>
                 </div>
                 <div className="border border-gray-200 rounded-lg p-4 bg-white">
                   <p className="text-gray-500 mb-1">Role</p>
-                  <p className="text-xl font-medium">UI Designer</p>
+                  <p className="text-sm font-medium">UI Designer</p>
                 </div>
               </div>
             </AnimatedElement>
