@@ -10,8 +10,6 @@ const Navbar = (props: {
   const observerRef = useRef<IntersectionObserver | null>(null);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
-  const resumeLink = "https://www.notion.so/josefreireknight/Josefina-Freire-Knight-1de675fd9b07805b9c2fd553388104a5?pvs=4";
-
   // Close mobile menu when screen size changes to desktop
   useEffect(() => {
     const handleResize = () => {
@@ -49,6 +47,7 @@ const Navbar = (props: {
     let ticking = false;
 
     const handleScroll = () => {
+      setMobileMenuOpen(false);
       const currentScrollPos = window.scrollY;
       
       if (!ticking) {
@@ -176,11 +175,11 @@ const Navbar = (props: {
                 <p className="text-gray-400 hover:text-gray-900">Projects</p>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href={resumeLink} target="_blank">
                 <p className="text-gray-400 hover:text-gray-900">Resume</p>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -195,13 +194,13 @@ const Navbar = (props: {
                   </p>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href={resumeLink} target="_blank">
                   <p className="text-gray-400 hover:text-gray-900 py-2">
                     Resume
                   </p>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         )}
